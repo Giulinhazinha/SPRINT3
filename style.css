@@ -116,31 +116,6 @@ background-color: #95bafe;
     
 }
 
-/* .topde  {
-    text-decoration: none;
-    background-color: #95bafe;
-} */
-/* 
-
-.topde a {
-    position: absolute;
-width: 344.72px;
-height: 63px;
-left: 47px;
-top: 142px;
-
-background: #95BAFE;
-} */
-
-/* TESTE CARROSSEL */
-
- /* .carrosself {
-    position: absolute;
-    background-color: black;
-    display: flex;
-    overflow-x: scroll;
-} */ */
-
 .texto {
     position: absolute;
     width: 992px;
@@ -149,7 +124,7 @@ background: #95BAFE;
     top: 151px;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 40px;
     line-height: 55px;
     color: #000000;
@@ -163,58 +138,167 @@ background: #95BAFE;
     top: 257px;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 30px;
     line-height: 41px;
      color: #4784F5;
 }
 
-input {
+ input {
+    width: 399px;
+    height: 63px;
+    border-radius: 5px;
+    background: #D9D9D9;
+} 
+.input {
     width: 399px;
     height: 63px;
     border-radius: 5px;
     background: #D9D9D9;
 }
+div div input {
+    width: 20px;
+    height: 40px;
+}
+
+.calendar {
+    position: absolute;
+width: 389px;
+height: 262px;
+left: 144px;
+top: 329px
+}
+
+.parte {
+    width: 10px;
+    height: 10px;
+}
+
+
 
 .forms {
+    position: absolute;
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-left: 60%;
     margin-top: 10%;
+    width: 40px;
+    height: 40px;
+    top: 220px;
 }
 
-label.quantas {
+p.quantas {
+    /* position: absolute; */
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     color: #4784F5;
+    width: 600px;
+    top: 300px;
+}
+
+p.embarque {
+    /* position: absolute; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #4784F5;
+    width: 600px;
 }
 
 .container-pag {
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 26px;
-
-position: absolute;
-width: 332px;
-height: 32px;
-left: 911px;
-top: 570px;
-}
-
-/*  container-pag {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 23px;
+    gap: 26px;
     position: absolute;
-    width: 557px;
-    height: 92px;
-    left: 780px;
-    top: 612px;
-} */
+    width: 32px;
+    height: 32px;
+    left: 911px;
+    top: 870px;
+    margin-top: -70px;
+}
+
+.pagamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    position: absolute;
+    width: 332px;
+    height: 32px;
+    left: 911px;
+    top: 570px;
+    width: 332px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    color: #4784F5;
+    mix-blend-mode: normal;
+    margin-top: 150px;
+    margin-left: -20px;
+    
+}
+
+.pix {
+    width: 80px;
+}
+
+.visa {
+    width: 40px;
+    
+}
+
+.boleto {
+    width: 40px;
+}
+
+.mastercard {
+    width: 40px;
+}
+
+.valortotal {
+width: 201px;
+height: 32px;
+left: 559px;
+top: 756px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+
+}
+
+.total {
+      font-weight: bold;
+}
+
+.finalização {
+    margin-bottom: 50px;
+    margin-left: -1180px;
+    color: #4784F5;
+}
+
+.finalizarcompra {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #4784F5;
+    box-shadow: 10;
+    margin-left: 160px;
+}
+
+.finalizarcompra:hover {
+    background-color: #103FE4;
+}
 

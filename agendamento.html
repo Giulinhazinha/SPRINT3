@@ -42,53 +42,63 @@
 
     <form action="" class="forms">
 
-        <label for="" class="quantas">Quantas pessoas vão viajar?</label>
+        <p class="quantas">Quantas pessoas vão viajar?</p>
         <div class="input">
             <input type="number">
         </div> 
 
-        <br>
+        <br><br><br>
 
-        <label for="" class="quantas">Qual é a cidade de embarque?</label>
+        <p for="" class="embarque">Qual é a cidade de embarque?</p>
         <div class="input">
             <input type="text">
         </div>
 
     </form>
 
+    <br><br><br><br><br>
+    <br><br><br><br><br>
 
 
 <!-- Formas de pagamento -->
-
+<p class="pagamentos">Forma de Pagamento</p>
     <div class="container-pag">
-        <h4>Forma de Pagamento</h4>
-        <div class="parte">
-            <input type="radio" name="metodo" value="pix">
-            <!-- <label for="pix"><img src="img/logo_pix.png" alt=""></label> -->
+         <br><br>
+        <div>
+            <input type="radio"  name="metodo" value="pix">
+            <label for="pix"><img class="pix" src="img/logo_pix.png" alt=""></label>
         </div>
-        <div class="parte">
+        <div>
             <input type="radio" name="metofo" value="visa">
-            <!-- <label for="cartao"><img src="img/visa-logo-2.png" alt=""></label> -->
+            <label for="cartao"><img class="visa" src="img/visa-logo-2.png" alt=""></label>
         </div>
-        <div class="parte">
-            <input type="radio" name="metofo" value="mastercard">
-            <!-- <label for="cartao"><img src="img/MicrosoftTeams-image.png" alt=""></label> -->
+        <div>
+            <input type="radio" name="metofo" value="mastercard"> 
+            <label for="cartao"><img class="mastercard" src="img/mastercard.png" alt=""></label>
         </div>
-        <div class="parte">
-            <input type="radio" name="metofo" value="cartao">
-            <!-- <label for="cartao">Cartao</label> -->
-        </div>
-        <div class="parte">
+        <!-- <div>
+            <input type="radio" name="metofo" value="cartao">elo
+            <label class=""  for="cartao"><img src="img/" alt=""></label>
+        </div> -->
+        <div>
             <input type="radio" name="metodo" value="boleto">
-            <!-- <label for="cartao"><img src="img/boleto.jpg" alt=""></label> -->
+            <label for="boleto"><img class="boleto" src="img/boleto.jpg" alt=""></label>
         </div>
+
+
+        <!-- Valor Total -->
+
+    <div class="finalização">
+        <h3 class="valortotal">Valor Total</h3>
+        <br><br>
+        <p class="subtotal">Subtotal: _____________</p>
+        <br><br>
+        <p class="taxas">Taxas e Impostos: _____________</p>
+        <br><br>
+        <p class="total">Total: _____________</p>
+
     </div>
 
-    <h3>VALOR TOTAL</h3>
-    <p>Subtotal</p>
-    <p>Taxas e Impostos</p>
-    <p>TOTAL</p>
-
-    <p>Finalizar Compra</p>
+    <input class="finalizarcompra" type="submit" value="Finalizar Compra" >
 </body>
 </html>
