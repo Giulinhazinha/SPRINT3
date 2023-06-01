@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'
+}
+
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1600px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: #95bafe;
+}
+
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+
+.topde {
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
+    
+}
+
+
+/* ARRUMAR ISSO AQUIIII */
+
+.topde p {
+    display: flex;
+    /* position: absolute; */
+    width: 288px;
+    height: 38px;
+    left: 77px;
+    top: 156px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: auto;
+    justify-content: space-around;
+    
+
+}
+
+.topde a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+/* .topde  {
+    text-decoration: none;
+    background-color: #95bafe;
+} */
+/* 
+
+.topde a {
+    position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+
+background: #95BAFE;
+} */
+
+/* TESTE CARROSSEL */
+
+ /* .carrosself {
+    position: absolute;
+    background-color: black;
+    display: flex;
+    overflow-x: scroll;
+} */ */
+
+.texto {
+    position: absolute;
+    width: 992px;
+    height: 63px;
+    left: 144px;
+    top: 151px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.ida {
+    position: absolute;
+    width: 406px;
+    height: 38px;
+    left: 150px;
+    top: 257px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+     color: #4784F5;
+}
+
+input {
+    width: 399px;
+    height: 63px;
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+label.quantas {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #4784F5;
+}
+
+.container-pag {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 332px;
+height: 32px;
+left: 911px;
+top: 570px;
+}
+
+/*  container-pag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 23px;
+    position: absolute;
+    width: 557px;
+    height: 92px;
+    left: 780px;
+    top: 612px;
+} */
+

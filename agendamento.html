@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>SkyWayTrip | Agendamento</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+      </style>
+    <header>
+     
+        <nav>
+            <div class="logo">
+                <p><a href="index.html" title="SkyWayTrip Produtos"><img src="img/skyway-logo.png" alt="SkyWayTrip Logo"></a></p>
+            </div>
+            <ul>
+                <li><a href="#home" title="Home">Home</a></li>
+                <li><a href="index.html" title="Pacotes">Pacotes</a></li>
+                <li><a href="#contato" title="Sobre">Sobre</a></li>
+                <li><a href="#pacotes" title="Contato">Contato</a></li>
+                <li><a href="#login" title="Login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="texto"><p>Agendamento da Viagem</p> <br><br><br><br>
+    </div>  
+
+<!-- Ida e volta  -->
+
+    <p class="ida">Marque a data de ida e volta</p>
+    <div class="calendar">
+        <input type="date">
+    </div>  
+
+    <!-- Quantas pessoas e cidade de embarque -->
+
+    <form action="" class="forms">
+
+        <label for="" class="quantas">Quantas pessoas vão viajar?</label>
+        <div class="input">
+            <input type="number">
+        </div> 
+
+        <br>
+
+        <label for="" class="quantas">Qual é a cidade de embarque?</label>
+        <div class="input">
+            <input type="text">
+        </div>
+
+    </form>
+
+
+
+<!-- Formas de pagamento -->
+
+    <div class="container-pag">
+        <h4>Forma de Pagamento</h4>
+        <div class="parte">
+            <input type="radio" name="metodo" value="pix">
+            <!-- <label for="pix"><img src="img/logo_pix.png" alt=""></label> -->
+        </div>
+        <div class="parte">
+            <input type="radio" name="metofo" value="visa">
+            <!-- <label for="cartao"><img src="img/visa-logo-2.png" alt=""></label> -->
+        </div>
+        <div class="parte">
+            <input type="radio" name="metofo" value="mastercard">
+            <!-- <label for="cartao"><img src="img/MicrosoftTeams-image.png" alt=""></label> -->
+        </div>
+        <div class="parte">
+            <input type="radio" name="metofo" value="cartao">
+            <!-- <label for="cartao">Cartao</label> -->
+        </div>
+        <div class="parte">
+            <input type="radio" name="metodo" value="boleto">
+            <!-- <label for="cartao"><img src="img/boleto.jpg" alt=""></label> -->
+        </div>
+    </div>
+
+    <h3>VALOR TOTAL</h3>
+    <p>Subtotal</p>
+    <p>Taxas e Impostos</p>
+    <p>TOTAL</p>
+
+    <p>Finalizar Compra</p>
+</body>
+</html>
