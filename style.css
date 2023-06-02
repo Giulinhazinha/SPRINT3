@@ -117,6 +117,9 @@ background-color: #95bafe;
     
 }
 
+/* ____________________________________________________________________________________________ */
+/* AGENDAMENTO  */
+
 .texto {
     position: absolute;
     width: 992px;
@@ -324,6 +327,7 @@ line-height: 41px;
     line-height: 44px;
     text-align: center;
     padding-top: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -333,12 +337,22 @@ line-height: 41px;
     color: #000000;
 }
 
+.disney img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left: 120px;
+    border: #000000 solid;
+    border-radius: 30px;
+}
+
 .informaçãoprecisa {
     position: relative;
     width: 441px;
     height: 48px;
     left: 88px;
-    top: 316px;
+    top: 250px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
@@ -347,18 +361,26 @@ line-height: 41px;
     color: #000000;
 }
 
+.informaçãoprecisa p strong {
+    text-decoration: underline;
+}
+
 .quantiaeforma {
     position: absolute;
     width: 768px;
     height: 68px;
     left: 703px;
-    top: 248px;
+    top: 350px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 44px;
     color: #000000;
+}
+
+.quantiaeforma p strong{
+    text-decoration: underline;
 }
 
 .valortotalcancelamento {
@@ -373,6 +395,7 @@ line-height: 41px;
     font-size: 30px;
     line-height: 55px;
     color: #000000;
+    text-decoration: underline;
 }
 
 .desejacancelar {
@@ -391,6 +414,7 @@ line-height: 41px;
     font-size: 20px;
     line-height: 28px;
     justify-items: left;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 .desejacancelar:hover {
@@ -426,8 +450,9 @@ line-height: 41px;
     font-size: 25px;
     line-height: 9px;
     text-align: center;
-    top: 750px;
+    top: 830px;
     left: 88px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 .botaoprecisadeajuda:hover {
