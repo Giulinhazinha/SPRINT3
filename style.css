@@ -4,9 +4,8 @@
     font-family: 'Nunito'
 }
 
-    
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 
 header {
     display: flex;
@@ -14,7 +13,7 @@ header {
     align-items: center;
     padding: 0px;
     position: static;
-    width: 1600px;
+    width: auto;
     height: 94px;
     left: 0px;
     top: 0px;
@@ -55,6 +54,8 @@ nav li {
     gap: 82px;
     width: 755px;
     height: 36px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a {
@@ -154,6 +155,7 @@ background-color: #95bafe;
     width: 399px;
     height: 63px;
     border-radius: 5px;
+    border: #95bafe;
     background: #D9D9D9;
 }
 div div input {
@@ -185,23 +187,23 @@ top: 329px
     margin-top: 10%;
     width: 40px;
     height: 40px;
-    top: 220px;
+    top: 135px;
 }
 
 p.quantas {
     /* position: absolute; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 30px;
     color: #4784F5;
     width: 600px;
-    top: 300px;
+    top: 200px;
 }
 
 p.embarque {
     /* position: absolute; */
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 30px;
     color: #4784F5;
     width: 600px;
@@ -217,7 +219,7 @@ p.embarque {
     width: 32px;
     height: 32px;
     left: 911px;
-    top: 870px;
+    top: 760px;
     margin-top: -70px;
 }
 
@@ -231,7 +233,7 @@ p.embarque {
     width: 332px;
     height: 32px;
     left: 911px;
-    top: 570px;
+    top: 470px;
     width: 332px;
     height: 32px;
     font-family: 'Nunito';
@@ -301,4 +303,114 @@ line-height: 41px;
 .finalizarcompra:hover {
     background-color: #103FE4;
 }
+
+.informaçõesviagem {
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 67px;
+    top: 140px;
+    color: black;
+    background: #95BAFE;
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.informaçõesviagem a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.informaçãoprecisa {
+    position: relative;
+    width: 441px;
+    height: 48px;
+    left: 88px;
+    top: 316px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.quantiaeforma {
+    position: absolute;
+    width: 768px;
+    height: 68px;
+    left: 703px;
+    top: 248px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.valortotalcancelamento {
+    position: absolute;
+    width: 557px;
+    height: 68px;
+    left: 703px;
+    top: 576px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.desejacancelar {
+    flex-direction: column;
+    position: absolute;
+    background: #95BAFE;
+    color: white;
+    width: 160px;
+    height: 150px;
+    border-radius: 15px;
+    /* text-align: center; */
+    /* align-items: center; */
+    left: 1250px;
+    top: 550px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    justify-items: left;
+}
+
+.desejacancelar p {
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+
+.botaoprecisadeajuda {
+    position: absolute;
+    background: #95BAFE;
+    border-radius: 15px;
+    width: 450px;
+    height: 100px;
+    bottom: 0%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 9px;
+    text-align: center;
+}
+ .botaoprecisadeajuda p {
+    padding-top: 20px;
+    margin-top: 5px;
+ }
 
