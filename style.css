@@ -304,6 +304,9 @@ line-height: 41px;
     background-color: #103FE4;
 }
 
+/* __________________________________________________________________________________ */
+/* Página de Cancelamento */
+
 .informaçõesviagem {
     position: absolute;
     width: 400px;
@@ -317,10 +320,13 @@ line-height: 41px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 44px;
     text-align: center;
+    padding-top: 10px;
 }
+
+
 
 .informaçõesviagem a {
     text-decoration: none;
@@ -373,12 +379,10 @@ line-height: 41px;
     flex-direction: column;
     position: absolute;
     background: #95BAFE;
-    color: white;
-    width: 160px;
-    height: 150px;
+    color: black;
+    width: 180px;
+    height: 170px;
     border-radius: 15px;
-    /* text-align: center; */
-    /* align-items: center; */
     left: 1250px;
     top: 550px;
     font-family: 'Nunito';
@@ -389,9 +393,23 @@ line-height: 41px;
     justify-items: left;
 }
 
+.desejacancelar:hover {
+    background-color: #103FE4;
+    color: white;
+}
+
 .desejacancelar p {
     padding-left: 15px;
-    padding-top: 2px;
+    padding-top: 5px;
+}
+
+.desejacancelar a {
+    text-decoration: none;
+    color: black;
+}
+
+.desejacancelar a:hover {
+    color: white;
 }
 
 
@@ -399,7 +417,7 @@ line-height: 41px;
     position: absolute;
     background: #95BAFE;
     border-radius: 15px;
-    width: 450px;
+    width: 430px;
     height: 100px;
     bottom: 0%;
     font-family: 'Nunito';
@@ -408,9 +426,34 @@ line-height: 41px;
     font-size: 25px;
     line-height: 9px;
     text-align: center;
+    top: 750px;
+    left: 88px;
 }
+
+.botaoprecisadeajuda:hover {
+    background-color: #103FE4;
+    color: #FFFFFF;
+}
+
+
  .botaoprecisadeajuda p {
     padding-top: 20px;
     margin-top: 5px;
+ }
+
+ .botaoprecisadeajuda a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .botaoprecisadeajuda a:hover {
+    color: white;
+ }
+
+ .botaoprecisadeajuda p img {
+    color: #000000;
+    position: relative;
+    width: 70px;
+    height: 35px;
  }
 
