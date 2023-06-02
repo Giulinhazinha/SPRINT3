@@ -134,6 +134,17 @@ background-color: #95bafe;
     color: #000000;
 }
 
+.localviagemagendar img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 110px;
+    left: 950px;
+    border: #000000 solid;
+    border-radius: 15px;
+
+}
+
 .ida {
     position: absolute;
     width: 406px;
@@ -190,7 +201,7 @@ top: 329px
     margin-top: 10%;
     width: 40px;
     height: 40px;
-    top: 135px;
+    top: 325px;
 }
 
 p.quantas {
@@ -222,8 +233,7 @@ p.embarque {
     width: 32px;
     height: 32px;
     left: 911px;
-    top: 760px;
-    margin-top: -70px;
+    top: 870px;
 }
 
 .pagamentos {
@@ -236,7 +246,7 @@ p.embarque {
     width: 332px;
     height: 32px;
     left: 911px;
-    top: 470px;
+    top: 650px;
     width: 332px;
     height: 32px;
     font-family: 'Nunito';
@@ -286,12 +296,16 @@ line-height: 41px;
 }
 
 .finalização {
-    margin-bottom: 50px;
-    margin-left: -1180px;
+    display: block;
+    top: 600px;
+    /* margin-bottom: 50px; */
+    margin-left: 150px;
     color: #4784F5;
 }
 
 .finalizarcompra {
+    position: relative;
+    top: 200px;
     width: 200px;
     height: 100px;
     cursor: pointer;
@@ -301,6 +315,8 @@ line-height: 41px;
     background-color: #4784F5;
     box-shadow: 10;
     margin-left: 160px;
+    text-align: center;
+    margin-top: -140px;
 }
 
 .finalizarcompra:hover {
@@ -481,4 +497,102 @@ line-height: 41px;
     width: 70px;
     height: 35px;
  }
+
+
+ /* RESPONSIVIDADE ________________________________________________________________________________________ */
+ /* _______________________________________________________________________________________________________ */
+ 
+ /* Abaixo de 992px */
+@media (max-width: 992px) {
+
+    header {
+       padding: 20px;     
+    }
+
+    header .logo{
+        max-width: 60px;
+    }
+
+    header ul{
+        display: none; /*Esconde o menu abaixo de 992px*/
+    }
+
+    /* Menu hamburguer */
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(assets/menu.png); /*Imagem do hamburguer*/
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+        z-index: 11;
+    }
+
+    .toggle.active{
+        position: fixed;
+        right: 20px;
+        background: url(assets/close.png); /*Imagem do X (Fechar)*/
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /*Menu do Hamburguer ativado (Forma a lista)*/
+    header ul.links.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; /*Largura da lista do hamburguer quando ativo*/
+    }
+
+    header ul li a {
+        font-size: 1.5em;
+        margin: 5px 0;   
+    }
+
+    /* Neste ponto fazer o JS (1ª função) */
+
+    /* Conteúdo */
+    main {
+        padding: 20px 20px 120px;
+    }
+
+    .conteudo {
+        flex-direction: column; /*Joga o conteúdo em coluna (blocos)*/
+        margin-top: 100px;
+    }
+
+    .conteudo .textoprincipal h2 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
+    .conteudo .textoprincipal {
+        max-width: 100%;
+    }
+
+    .conteudo .imgBox {
+        max-width: 300px;
+    }
+
+    .thumb li img {
+        max-width: 40px;
+    }
+
+    .circulo {
+        clip-path: circle(400px at center bottom);
+    }
+
+    .sociais {
+        background: var(--corPrimaria);
+        right: 0;
+        width: 50px;
+        border-bottom-left-radius: 5px;
+    }
+
+    /* Fazer o restante do JS (2ª e 3ª funções) */
+}
 
