@@ -122,16 +122,20 @@ background-color: #95bafe;
 
 .texto {
     position: absolute;
-    width: 992px;
+    width: 475px;
+    border-radius: 10px;
     height: 63px;
     left: 144px;
     top: 151px;
+    margin-right: 170px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 1000;
     font-size: 40px;
     line-height: 55px;
-    color: #000000;
+    color: #E0CD80;
+    text-align: center;
+    background-color: #1D3B5E;
 }
 
 .localviagemagendar img {
@@ -330,7 +334,8 @@ line-height: 41px;
 }
 
 .finalizarcompra:hover {
-    background-color: #103FE4;
+    background-color: #1D3B5E;
+    color: #E0CD80;
 }
 
 /* __________________________________________________________________________________ */
@@ -508,6 +513,51 @@ line-height: 41px;
     height: 35px;
  }
 
+ /* ________________________________________________________________________________________________________________________ */
+ /* FOOTER */
+
+ footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+ }
+
+ .container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+ }
+
+ .row-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+
+ .col-footer {
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+
+ .col-footer ul li {
+    margin: 10px 0;
+
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+ }
 
  /* RESPONSIVIDADE ________________________________________________________________________________________ */
  /* _______________________________________________________________________________________________________ */
