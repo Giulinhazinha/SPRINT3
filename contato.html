@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.google.com/specimen/Nunito?query=nunit"> 
-    <link rel="shortcut icon" href="a467f849-84d8-497a-b89c-2a93639ba108-removebg-preview.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/novalogo.png" type="image/x-icon">
     <title>SkyWayTrip Produtos</title>
 </head>
 <body>
@@ -22,13 +22,11 @@
                 <p><a href="index.html" title="SkyWayTrip Produtos"><img src="assets/logo.png" alt="SkyWayTrip Logo"></a></p>
             </div>
             <ul>
-                <li><a href="home.html" title="Home">Home</a></li>
-                <li><a href="pacotes.html" title="Pacotes">Pacotes</a></li>
-                <li><a href="sobre.html" title="Sobre">Sobre</a></li>
-                <li><a href="contato.html" title="Contato">Contato</a></li>
+                <li><a href="#home" title="Home">Home</a></li>
+                <li><a href="#sobre" title="Pacotes">Pacotes</a></li>
+                <li><a href="contato.html" title="Sobre">Sobre</a></li>
+                <li><a href="#pacotes" title="Contato">Contato</a></li>
                 <li><a href="#login" title="Login">Login</a></li>
-                <li><a href="#compra" ><img src="img/compra-fotor-bg-remover-2023060181431.png" ></a></li>
-                <li><a href="#perfil"><img src="img/kisspng-clip-art-portable-network-graphics-computer-icons-user-staff-person-man-profile-boss-circle-svg-png-5b62ed560cb369.529707841533209942052-fotor-bg-remover-2023060182128.png" alt=""></a></li>
             </ul>
         </nav>
     </header>
@@ -41,19 +39,19 @@
     <!-- Formulario -->
     <form action="" class="forms">
 
-        <strong><h2 class="titulo">Formulário</h2></strong>
+        <strong><h2 class="titulo2">Formulário de Contato</h2></strong>
         <br>
         
         <label for="">Nome</label>
         <div class="input">
-            <input type="text" name="username" placeholder="Digite seu nome" id="username">
+            <input type="text" id="nomeid" placeholder="Digite seu nome" id="username">
         </div>
 
         <br>
 
         <label for="">E-mail</label>
         <div class="input">
-            <input type="email" name="e-mail" placeholder="Digite um endereço de email válido" id="email">
+            <input type="email" id="emailid" placeholder="Digite um endereço de email válido" id="email">
         </div>
 
         <br>
@@ -61,7 +59,7 @@
         
         <label for="">Mensagem</label> 
         <div class="caixatexto">
-            <input type="text" name="mensagem" placeholder="Digite sua mensagem">
+            <textarea name="" id="mensagemid" cols="71" rows="6" placeholder="Digite sua mensagem aqui"></textarea>
         </div>
 
         <br>
@@ -69,14 +67,13 @@
 
         <!-- Botão de envio -->
         <div class="botao">
-           <a href="enviar-mensagem-confirmado.html"><input type="submit"></a>
-            <!-- <button type="submit" value="Envair">Enviar</button> -->
+           <input type="submit" onclick="Enviar();" value="Enviar"/>
         </div>
     </form>
 
     <!-- Mapa (Google maps) -->
     <div class="mapa">
-        <h2>Localização</h2><br>
+        <h2 class="titulo1">Localização</h2><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.544179933458!2d-46.52969852474568!3d-23.65648977873462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f7179df4b%3A0x61e27ba93ba31f8!2sR.%20Cel.%20Oliveira%20Lima%20-%20Centro%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009010-000!5e0!3m2!1spt-BR!2sbr!4v1685100987897!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <br>
@@ -85,7 +82,8 @@
 
     <!-- Redes Sociais -->
     <div class="redes">
-        <h2>Siga-nos</h2>
+        <h2 class="titulo3">Siga-nos</h2>
+        <br>
         <br>
         <ul class="sociais">
             <li><a href="https://pt-br.facebook.com" target="_blank"><img src="assets/facebook.png" alt="facebook"></a></li>
@@ -95,63 +93,15 @@
     </div>
 
     <div class="aplicativos">
-        <h3>Use o nosso app</h3>
-        <p>Baixa o aplicativo para celular android e ios</p>
+        <h3 class="titulo4">Use o nosso app</h3>
+        <p class="desc">Baixe o nosso aplicativo, para celular android e ios</p>
         <br>
-        <div class="logo-app">
-            <img src="assets/play-store.png" alt="" width="150" height="50">
-            <img src="assets/app-store.png" alt="" width="150" height="50">
+        <div class="logoapp">
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj72PjzyKT_AhUBN9QBHbUaBD4YABAAGgJvYQ&ohost=www.google.com&cid=CAESbeD2Qt4SdAJmqj-6z3zyoa_VKesfwph9JqR-orVmE7QbjwWAYLI83qNEcKJtloGaDYfuZT6pCcWeArDnaiuQTzcorpsvLl4yNp8oaL6oCfWhfqLd1-lDhPOfhztH8jzg-v-Iziq8LJIqEFSuEZk&sig=AOD64_0kBKiT1v1lSYhPRQb_9a60kcyszg&q&adurl&ved=2ahUKEwjL6ezzyKT_AhVmt5UCHbksCUcQ0Qx6BAgHEAE" target="_blank"><img src="assets/play-store.png" alt="" width="180" height="60"></a>
+            <a href="https://www.apple.com/br/app-store/" target="_blank"></a><img src="assets/app-store.png" alt="" width="180" height="60">
         </div>
     </div>
 </div>
 
-<!-- Footer -->
-<br><br><br><br><br><br><br><br><br><br><br>
-    <footer>
-        <div class="container-footer">
-            <div class="row-footer">
-                <div class="col-footer">
-                    <img src="img/" alt="">
-                </div>
-                <div class="col-footer">
-                    <h4>Início</h4>
-                    <ul>
-                       <li><a href="">Home</a></li>
-                       <li><a href="">Login</a></li>
-                       <li><a href="">Produtos</a></li>
-                    </ul> 
-                </div>
-                <div class="col-footer">
-                    <h4>Sobre</h4>
-                    <ul>
-                       <li><a href="">Informações da Empresa</a></li>
-                       <li><a href="">Histórico</a></li>
-                       <li><a href="">Nosso Objetivo</a></li>
-                    </ul> 
-                </div>
-                <div class="col-footer">
-                    <h4>Produtos</h4>
-                    <ul>
-                       <li><a href="">Pacotes</a></li>
-                       <li><a href="">Top Destinos Brasil</a></li>
-                       <li><a href="">Pacotes Mais Amados</a></li>
-                       <li><a href="">Os Melhores Cruzeiros</a></li>
-                    </ul> 
-                </div>
-                <div class="col-footer">
-                    <h4>Contato</h4>
-                    <ul>
-                       <li><a href="">Localização</a></li>
-                       <li><a href="">Redes Sociais</a></li>
-                       <li><a href="">Envie Sua Mensagem</a></li>
-                    </ul> 
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-    
 </body>
 </html>
