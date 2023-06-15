@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+/* HEADER */
+/*-- ___________________________________________________________________________________________________________________________ */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: auto;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+nav a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: #95bafe;
+}
+
+/* FUNDO AZUL */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.Boxmodel{
+    width: 400px;
+    height: 370px;
+    background-color: #95bafe;
+    margin-left: 35%;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+/* "FAÇA O LOGIN [FRASE NO TOPO]" */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.intro{
+    margin-left: 100px;
+}
+
+/* AJUSTA AS CAIXAS DE PERGUNTAS */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+section{
+    display: flex;
+    align-items: cenTer;
+    justify-content: Center;
+    height: 40vh;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 15px;
+    min-width: 300px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: wheat;
+}
+
+form input[type=button] {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+
+form label {
+    margin-left: 10px;
+}
+
+/* BOTÃO DE LOGIN */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.entrar{
+    margin-left: 12px;
+}
+
+/* CARRINHO DE COMPRA */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.compra {
+    width: 35px;
+    height: 35px;
+}
+
+/* opção criar conta embaixo do login */
+.link {
+    color: blue;
+    margin-left: 125px;
+}
