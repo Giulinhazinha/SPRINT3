@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -62,12 +64,13 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: black;
-
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    background-color: white;
-    color: #95bafe;
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
 }
 
 nav li img {
@@ -537,6 +540,12 @@ line-height: 41px;
     padding: 0 15px;
  }
 
+ .col-footer img {
+    width: 250px;
+    height: auto;
+    margin-right: 200px;
+ }
+
  .col-footer h4 {
     font-size: 20px;
     color: #E0CD80;
@@ -557,7 +566,14 @@ line-height: 41px;
     font-size: 20px;
     text-decoration: none;
     color: #E0CD80;
+    transition: all 0.3s ease;
  }
+
+ .col-footer ul li a:hover {
+    color: #E0CD80;
+    padding-left: 5px;
+ }
+
 
  /* RESPONSIVIDADE ________________________________________________________________________________________ */
  /* _______________________________________________________________________________________________________ */
