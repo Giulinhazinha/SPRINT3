@@ -1,0 +1,163 @@
+/* Header*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1600px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    +
+    color: black;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: #95bafe;
+}
+
+ /* Página contato*/ 
+
+.forms {
+  
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 60%;
+    margin-top: 80px; /*Alterar posição*/
+}
+
+
+.mapa  {
+    display: auto;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: -555px; /*Alterar posição*/
+}
+
+.inputforms {
+    border: 3px solid #95bafe;
+    width: 399px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 63px;
+    background-color: #d9d9d9;
+}
+.inputforms a:hover { /*Não funcionou*/
+    background-color: white;
+    color: #95bafe;
+}
+ .caixatexto {
+    Border: 3px solid #95bafe;
+    width: 500px;
+    -moz-box-sizing: border-box; 
+     box-sizing: border-box;
+    height: 9em;    
+}
+
+textarea{
+    width: 495px;
+    height: 10.5em;
+    border: none;
+    background-color: #d9d9d9;
+}
+.botao [type=submit] {
+    background-color: #95bafe;
+}
+
+.redes {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.sociais { 
+    margin-left: -25px;
+    list-style: none;
+    display: flex; 
+    align-items:start
+    flex-direction row;
+    width: 15vw;
+    justify-content: space-around;
+}
+
+.titulo1 {
+    font-size: 30px;
+} 
+.titulo2 {
+    font-size: 30px;
+} .titulo3 {
+    font-size: 30px;
+}
+.titulo4 {
+    font-size: 30px;
+}
+
+.aplicativos { /*Use nosso app*/
+    display: flex;
+    flex-direction: column;
+   padding-right:5px;
+    margin: auto;
+    margin-left: 60%;
+    margin-top: -10%
+}
+
+
+.logoapp {
+    justify-content: space-between;
+}
+
+
+/* Rodapé */
