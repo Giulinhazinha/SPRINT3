@@ -5,6 +5,8 @@
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 
 
 header {
@@ -12,13 +14,21 @@ header {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    position: static;
-    width: auto;
+    position: absolute;
+    width: 1600px;
     height: 94px;
     left: 0px;
     top: 0px;
     background: #95bafe;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.plano-de-fundo {
+    background-image: url(img/fundo.jpeg);
+    width: 100%;
+    height: 130vh;
+    opacity: 100%;
 }
 
 .logo img {
@@ -54,8 +64,6 @@ nav li {
     gap: 82px;
     width: 755px;
     height: 36px;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 nav a {
@@ -68,591 +76,128 @@ nav a {
 nav a:hover {
     background-color: white;
     color: #95bafe;
-}
+     }
 
-nav li img {
-    width: 35px;
-    height: 35px;
-}
-
-.topde {
     
-position: absolute;
-width: 344.72px;
-height: 63px;
-left: 47px;
-top: 142px;
-filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
-background-color: #95bafe;
-    
-}
-
-
-/* ARRUMAR ISSO AQUIIII */
-
-.topde p {
-    display: flex;
-    /* position: absolute; */
-    width: 288px;
-    height: 38px;
-    left: 77px;
-    top: 156px;
-    text-align: center;
-    font-family: 'Nunito';
-    font-style: italic;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 41px;
-    color: #FFFFFF;
-    margin-left: 45px;
-    margin-top: auto;
-    justify-content: space-around;
-    
-
-}
-
-.topde a {
-    text-decoration: none;
-    text-align: center;
-    
-}
-
-/* ____________________________________________________________________________________________ */
-/* AGENDAMENTO  */
-
-.texto {
-    position: absolute;
-    width: 475px;
+.carrinho {
+    height: 120px;
+    width: 250px;
     border-radius: 10px;
-    height: 63px;
-    left: 144px;
-    top: 151px;
-    margin-right: 170px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 1000;
-    font-size: 40px;
-    line-height: 55px;
-    color: #E0CD80;
-    text-align: center;
-    background-color: #1D3B5E;
-}
-
-.localviagemagendar img {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    top: 110px;
-    left: 950px;
-    border: #000000 solid;
-    border-radius: 15px;
-
-}
-
-.ida {
-    position: absolute;
-    width: 406px;
-    height: 38px;
-    left: 150px;
-    top: 257px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 41px;
-     color: #4784F5;
-}
-
- input {
-    width: 399px;
-    height: 63px;
-    border-radius: 5px;
-    background: #D9D9D9;
-} 
-.input {
-    position: relative;
-    width: 399px;
-    height: 63px;
-    top: 150px;
-    left: 911px;
-    border-radius: 5px;
-    border: #95bafe;
-    background: #D9D9D9;
-}
-div div input {
-    width: 20px;
-    height: 40px;
-}
-
-.calendar {
-    position: absolute;
-width: 389px;
-height: 262px;
-left: 144px;
-top: 329px
-}
-
-.parte {
-    width: 10px;
-    height: 10px;
-}
-
-
-
-.forms {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-left: 60%;
-    margin-top: 10%;
-    width: 40px;
-    height: 40px;
-    top: 400px;
-}
-
-.quantas {
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    color: #4784F5;
-    left: 911px;
-    width: 600px;
-    top: 150px;
-}
-
-.embarque {
-    position: relative;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    color: #4784F5;
-    left: 911px;
-    width: 600px;
-    top: 150px;
-}
-
-.container-pag {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 26px;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 911px;
-    top: 870px;
-}
-
-.pagamentos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 26px;
-    position: absolute;
-    width: 332px;
-    height: 32px;
-    left: 911px;
-    top: 650px;
-    width: 332px;
-    height: 32px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 41px;
-    color: #4784F5;
-    mix-blend-mode: normal;
-    margin-top: 150px;
-    margin-left: -20px;
+    background-color: #95bafe;
+    margin-top: 250px;
+    margin-left: 30px ;
     
 }
 
-.pix {
-    width: 80px;
-}
-
-.visa {
-    width: 40px;
-    
-}
-
-.boleto {
-    width: 40px;
-}
-
-.mastercard {
-    width: 40px;
-}
-
-.valortotal {
-width: 201px;
-height: 32px;
-left: 559px;
-top: 756px;
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 41px;
-
-}
-
-.total {
-      font-weight: bold;
-}
-
-.finalização {
-    position: absolute;
-    display: block;
-    top: 500px;
-    margin-left: 150px;
-    color: #4784F5;
-}
-
-.finalizarcompra {
-    position: relative;
-    display: flex;
-    top: 150px;
-    width: 200px;
-    height: 100px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-    background-color: #4784F5;
-    box-shadow: 10;
-    margin-left: 160px;
-    text-align: center;
-    margin-top: -140px;
-    align-items: center;
-}
-
-.finalizarcompra:hover {
-    background-color: #1D3B5E;
-    color: #E0CD80;
-}
-
-/* __________________________________________________________________________________ */
-/* Página de Cancelamento */
-
-.informaçõesviagem {
-    position: absolute;
-    width: 400px;
-    height: 65px;
-    left: 67px;
-    top: 140px;
+.carrinho h1{
     color: black;
-    background: #95BAFE;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.agendamento1 {
+    height: 30px;
     border-radius: 10px;
-    align-items: center;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 44px;
-    text-align: center;
-    padding-top: 10px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    width: 800px;
+    background-color: grey;
+    margin: 30px;
+    margin-top: 80px;
 }
 
-
-
-.informaçõesviagem a {
-    text-decoration: none;
-    color: #000000;
+.agendamento2 {
+    height: 30px;
+    border-radius: 10px;
+    width: 800px;
+    background-color: grey;
+    margin: 30px;
 }
 
-.disney img {
-    width: 300px;
-    height: 200px;
-    position: relative;
-    top: 200px;
-    left: 120px;
-    border: #000000 solid;
-    border-radius: 30px;
+.agendamento3 {
+    height: 30px;
+    border-radius: 10px;
+    width: 800px;
+    background-color: grey;
+    margin: 30px;
 }
 
-.informaçãoprecisa {
-    position: relative;
-    width: 441px;
-    height: 48px;
-    left: 88px;
-    top: 250px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 44px;
-    color: #000000;
+.agendamento4 {
+    height: 30px;
+    border-radius: 10px;
+    width: 800px;
+    background-color: grey;
+    margin: 30px;
 }
 
-.informaçãoprecisa p strong {
-    text-decoration: underline;
-}
-
-.quantiaeforma {
-    position: absolute;
-    width: 768px;
-    height: 68px;
-    left: 703px;
-    top: 350px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 44px;
-    color: #000000;
-}
-
-.quantiaeforma p strong{
-    text-decoration: underline;
-}
-
-.valortotalcancelamento {
-    position: absolute;
-    width: 557px;
-    height: 68px;
-    left: 703px;
-    top: 576px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 55px;
-    color: #000000;
-    text-decoration: underline;
-}
-
-.desejacancelar {
-    flex-direction: column;
-    position: absolute;
-    background: #95BAFE;
-    color: black;
+.conosco {
+    height: 180px;
     width: 180px;
-    height: 170px;
-    border-radius: 15px;
-    left: 1250px;
-    top: 550px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    justify-items: left;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-}
-
-.desejacancelar:hover {
-    background-color: #103FE4;
-    color: white;
-}
-
-.desejacancelar p {
-    padding-left: 15px;
-    padding-top: 5px;
-}
-
-.desejacancelar a {
-    text-decoration: none;
-    color: black;
-}
-
-.desejacancelar a:hover {
-    color: white;
-}
-
-
-.botaoprecisadeajuda {
-    position: absolute;
-    background: #95BAFE;
-    border-radius: 15px;
-    width: 430px;
-    height: 100px;
-    bottom: 0%;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 9px;
-    text-align: center;
-    top: 830px;
-    left: 88px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-}
-
-.botaoprecisadeajuda:hover {
-    background-color: #103FE4;
-    color: #FFFFFF;
-}
-
-
- .botaoprecisadeajuda p {
-    padding-top: 20px;
-    margin-top: 5px;
- }
-
- .botaoprecisadeajuda a {
-    text-decoration: none;
-    color: black;
- }
-
- .botaoprecisadeajuda a:hover {
-    color: white;
- }
-
- .botaoprecisadeajuda p img {
-    color: #000000;
-    position: relative;
-    width: 70px;
-    height: 35px;
- }
-
- /* ________________________________________________________________________________________________________________________ */
- /* FOOTER */
-
- footer {
-    background-color: #234C8A;
-    padding: 50px 0;
- }
-
- .container-footer {
-    max-width: auto;
-    padding: 0 4%;
-    margin: auto;
- }
-
- .row-footer {
+    background-color: #95bafe;
     display: flex;
-    /* flex-wrap: wrap; */
- }
-
- .col-footer {
-    width: 25%;
-    padding: 0 15px;
- }
-
- .col-footer h4 {
-    font-size: 20px;
-    color: #E0CD80;
-    margin-bottom: 20px;
-    position: relative;
- }
-
- .col-footer ul {
-    list-style: none;
- }
-
- .col-footer ul li {
-    margin: 10px 0;
-
- }
-
- .col-footer ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #E0CD80;
- }
-
- /* RESPONSIVIDADE ________________________________________________________________________________________ */
- /* _______________________________________________________________________________________________________ */
- 
- /* Abaixo de 992px */
-@media (max-width: 992px) {
-
-    header {
-       padding: 20px;     
-    }
-
-    header .logo{
-        max-width: 60px;
-    }
-
-    header ul{
-        display: none; /*Esconde o menu abaixo de 992px*/
-    }
-
-    /* Menu hamburguer */
-    .toggle {
-        position: relative;
-        width: 30px;
-        height: 30px;
-        cursor: pointer;
-        background: url(assets/menu.png); /*Imagem do hamburguer*/
-        background-size: 30px;
-        background-position: center;
-        background-repeat: no-repeat;
-        filter: invert(1);
-        z-index: 11;
-    }
-
-    .toggle.active{
-        position: fixed;
-        right: 20px;
-        background: url(assets/close.png); /*Imagem do X (Fechar)*/
-        background-size: 25px;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    /*Menu do Hamburguer ativado (Forma a lista)*/
-    header ul.links.active {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%; /*Largura da lista do hamburguer quando ativo*/
-    }
-
-    header ul li a {
-        font-size: 1.5em;
-        margin: 5px 0;   
-    }
-
-    /* Neste ponto fazer o JS (1ª função) */
-
-    /* Conteúdo */
-    main {
-        padding: 20px 20px 120px;
-    }
-
-    .conteudo {
-        flex-direction: column; /*Joga o conteúdo em coluna (blocos)*/
-        margin-top: 100px;
-    }
-
-    .conteudo .textoprincipal h2 {
-        font-size: 2.5em;
-        margin-bottom: 15px;
-    }
-
-    .conteudo .textoprincipal {
-        max-width: 100%;
-    }
-
-    .conteudo .imgBox {
-        max-width: 300px;
-    }
-
-    .thumb li img {
-        max-width: 40px;
-    }
-
-    .circulo {
-        clip-path: circle(400px at center bottom);
-    }
-
-    .sociais {
-        background: var(--corPrimaria);
-        right: 0;
-        width: 50px;
-        border-bottom-left-radius: 5px;
-    }
-
-    /* Fazer o restante do JS (2ª e 3ª funções) */
+    margin-top: -230px;
+    margin-left: 900px;
+    border-radius: 10px;
 }
 
+.conosco h2 {
+    margin: 10px;
+    font-size: 20px;
+    
+ }
+
+
+input[type=button] {
+    background-color: blue;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 1000px;
+    margin-top: -45px;
+    display: flex;
+}
+
+.aviao {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 1020px;
+    margin-top: -60px;
+}
+
+.barco {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 1020px;
+    margin-top: -80px;
+}
+
+.cama {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 1020px;
+    margin-top: -70px;
+}
+
+.ajuda2 {
+    width: 300px;
+    height: 100px;
+    background-color: #95bafe;
+    margin-top: 250px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 130px;
+    color: white;
+ }
+
+ .mao2 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 380px;
+    margin-top: -60px;
+    
+}
