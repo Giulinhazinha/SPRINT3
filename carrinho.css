@@ -173,7 +173,7 @@ form label {
  }
 
  .col-footer img {
-    width: 300px;
+    width: 250px;
     height: auto;
     max-width: 500px;
     margin-right: 200px;
@@ -322,6 +322,19 @@ tr td div img {
     margin-left: -40px;
 }
 
+
+div input[type=submit] {
+    
+    background-color:cornflowerblue ;
+    color:#ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
 
 div input:hover[type=submit] {
     
