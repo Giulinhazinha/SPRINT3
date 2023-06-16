@@ -87,37 +87,6 @@ nav a:hover {
 /* AJUSTA AS CAIXAS DE PERGUNTAS */
 /*-- ___________________________________________________________________________________________________________________________ */
 
-section{
-    display: flex;
-    align-items: cenTer;
-    justify-content: Center;
-    height: 40vh;
-}
-
-form div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-form input, form textarea {
-    padding: 15px;
-    min-width: 300px;
-    border: 1px solid cornflowerblue;
-    border-radius: 10px;
-}
-
-form input:focus, form textarea:focus {
-    background-color: wheat;
-}
-
-form input[type=button] {
-    background-color: cornflowerblue;
-    color: white;
-    cursor: pointer;
-}
-
-
 form label {
     margin-left: 10px;
 }
@@ -173,7 +142,7 @@ form label {
  }
 
  .col-footer img {
-    width: 300px;
+    width: 250px;
     height: auto;
     max-width: 500px;
     margin-right: 200px;
@@ -260,7 +229,7 @@ td a {
 .total-price {
     display: flex;
     justify-content: flex-end;
-    margin-left: 00px;
+    margin-top: 20px;
     
 }
 .total-price table {
@@ -314,6 +283,7 @@ tr td div img {
     width: 180px;
     height: 180px;
     margin-left: 30px;
+    border-radius: 10px;
 }
 
 
@@ -324,8 +294,9 @@ tr td div img {
 
 
 div input[type=submit] {
-    background-color: cornflowerblue;
-    color: white;
+    
+    background-color:cornflowerblue ;
+    color:#ffffff;
     cursor: pointer;
     margin-top: 20px;
     margin-left: 1250px;
@@ -333,4 +304,22 @@ div input[type=submit] {
     height: 30px;
     width: 130px;
     border: none;
+}
+
+div input:hover[type=submit] {
+    
+    background-color:#1D3B5E ;
+    color:#E0CD80;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+
+hr {
+    width: 234%;
+    margin-left: 00%;
 }
