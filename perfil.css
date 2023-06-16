@@ -7,8 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-
-
 header {
     display: flex;
     flex-direction: row;
@@ -22,7 +20,6 @@ header {
     background: #95bafe;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .plano-de-fundo {
     background-image: url(img/fundo.jpeg);
@@ -84,7 +81,7 @@ nav a:hover {
     width: 250px;
     border-radius: 10px;
     background-color: #1f3763;
-    margin-top: 250px;
+    margin-top: 120px;
     margin-left: 30px ;
     
 }
@@ -252,4 +249,44 @@ footer {
  .col-footer ul li a:hover {
     color: #E0CD80;
     padding-left: 5px;
+ }
+
+ .container-denis {
+    margin-top: 100px;
+    top: 300px;
+    margin: 150px;
+    height: 150px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: #1f3763;
+ }
+
+ .Denis {
+    color: white;
+    margin: 30px;
+ }
+
+ .email-denis {
+    color: white;
+    margin: 30px;
+ }
+
+ .email-denis2 {
+    color: white;
+    margin-left: 300px;
+    margin-top: -70px;
+ }
+ .editar-perfil {
+    text-decoration: none;
+    color: white;
+    margin-left: 950px;
+    margin-top: -50px;
+ }
+ .mala {
+    border-radius: 520px;
+    display: flex;
+    margin-left: 1060px;
+    margin-top: -70px;
+    height: 90px;
+    width: 80px;
  }
