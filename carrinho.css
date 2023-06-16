@@ -87,37 +87,6 @@ nav a:hover {
 /* AJUSTA AS CAIXAS DE PERGUNTAS */
 /*-- ___________________________________________________________________________________________________________________________ */
 
-section{
-    display: flex;
-    align-items: cenTer;
-    justify-content: Center;
-    height: 40vh;
-}
-
-form div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-form input, form textarea {
-    padding: 15px;
-    min-width: 300px;
-    border: 1px solid cornflowerblue;
-    border-radius: 10px;
-}
-
-form input:focus, form textarea:focus {
-    background-color: wheat;
-}
-
-form input[type=button] {
-    background-color: cornflowerblue;
-    color: white;
-    cursor: pointer;
-}
-
-
 form label {
     margin-left: 10px;
 }
@@ -260,7 +229,7 @@ td a {
 .total-price {
     display: flex;
     justify-content: flex-end;
-    margin-left: 00px;
+    margin-top: 20px;
     
 }
 .total-price table {
@@ -314,6 +283,7 @@ tr td div img {
     width: 180px;
     height: 180px;
     margin-left: 30px;
+    border-radius: 10px;
 }
 
 
