@@ -80,11 +80,10 @@ nav a:hover {
     width: 400px;
     height: 580px;
     background-color: #95bafe;
-    margin-left: 550px;
+    margin: auto;
     align-items: center;
     border-radius: 20px;
-    margin-top: -90px;
-    
+    margin-top: 0px;
 }
 
 /* "CRIE SUA CONTA NA SKY TRIP" */
@@ -143,3 +142,74 @@ form label {
     height: 35px;
 }
 
+/* ___________________________ */
+/* Coisas do fdp */
+
+body {
+    background-image: url(céu1.jpg);
+    background-size: cover;
+}
+
+/* ________________________________________________________________________________________________________________________ */
+ /* FOOTER */
+
+ footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+ }
+
+ .container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+    
+ }
+
+ .row-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+
+ .col-footer {
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+
+ .col-footer ul li {
+    margin: 10px 0;
+
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+    position: relative;
+    transition: padding-left 0.3s ease;
+ }
+
+ .col-footer ul li a:hover {
+    padding-left: 5px;
+ }
+
+ .col-footer img {
+    width: 250px;
+    height: auto;
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: -40px;
+ }
+
+/* __________________________________ */
+/* Coisas que o fdp fez */

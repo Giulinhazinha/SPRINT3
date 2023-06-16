@@ -117,98 +117,7 @@ background-color: #95bafe;
     
 }
 /* ____________________________________________________________________________________________ */
-/* Contato */
-.formscontato {
-  
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-left: 60%;
-    margin-top: 80px; /*Alterar posição*/
-}
 
-
-.mapa  {
-    display: auto;
-    margin: auto;
-    margin-left: 7%;
-    margin-top: -547px; /*Alterar posição*/
-}
-
-.inputcontato {
-    border: 3px solid #95bafe;
-    width: 399px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 63px;
-    background-color: #d9d9d9;
-}
-
-.caixatextocontato {
-    Border: 4px solid #95bafe;
-    width: 500px;
-    -moz-box-sizing: border-box; 
-     box-sizing: border-box;
-    height: 9em;    
-}
-
-.textareacontato{
-    width: 493px;
-    height: 10.3em;
-    border: none;
-    background-color: #d9d9d9;
-}
-.botaocontato [type=submit] {
-    background-color: #95bafe;
-    width: 399px;
-    height: 50px;
-    border: none;
-}
-
-.botaocontato a:hover { /*ajuda*/
-    background-color: #1d3b5e;
-    color: #e0cd80;
-}
-
-.redes {
-    margin-left: 7%;
-    margin-top: 5%;
-}
-.sociais { 
-    margin-left: -25px;
-    list-style: none;
-    display: flex; 
-    align-items:start
-    flex-direction row;
-    width: 15vw;
-    justify-content: space-around;
-}
-
-.titulo1 {
-    font-size: 30px;
-} 
-.titulo2 {
-    font-size: 30px;
-} .titulo3 {
-    font-size: 30px;
-}
-.titulo4 {
-    font-size: 30px;
-}
-
-.aplicativos { /*Use nosso app*/
-    display: flex;
-    flex-direction: column;
-   padding-right:5px;
-    margin: auto;
-    margin-left: 60%;
-    margin-top: -10%
-}
-
-
-.logoapp {
-    justify-content: space-between;
-}
 
 /* ____________________________________________________________________________________________ */
 /* Agendamento  */
@@ -434,6 +343,7 @@ line-height: 41px;
     text-align: center;
     margin-top: -140px;
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .finalizarcompra:hover {

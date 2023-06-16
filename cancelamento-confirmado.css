@@ -8,8 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 /* HEADER */
-/* _______________________________________________________________ */
-
+/* ______________________________________________________________________________________ */
 header {
     display: flex;
     flex-direction: row;
@@ -25,7 +24,8 @@ header {
 }
 
 /* LOGO EMPRESA */
-/*  */
+/*-- ___________________________________________________________________________________________________________________________ */
+
 .logo img {
     width: 111px;
     height: 94px;
@@ -73,8 +73,25 @@ nav a:hover {
     border-radius: 5px;
     color: #95bafe;
 }
+nav li img {
+    width: 35px;
+    height: 35px;
+}
 
-/* AJUSTAR O VOLTAR PARA HOME E A IMAGEM "CHECK" */
+.topde {
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
+}
+
+/* AJUSTA O VOLTAR PARA HOME E A IMAGEM "CHECK" */
+/*-- ___________________________________________________________________________________________________________________________ */
+
 
 section{
     display: flex;
@@ -104,6 +121,7 @@ form input[type=submit] {
     background-color: cornflowerblue;
     color: white;
     cursor: pointer;
+    width: 15px;
 }
 
 
@@ -111,43 +129,37 @@ form label {
     margin-left: 10px;
 }
 
-/* LOGIN FEITO COM SUCESSO [FRASE NO TOPO] */
-.conta {
-    margin-left: 34%;
-}
+/*LOGIN FEITO COM SUCESSO*/
 
-/* VOLTAR PARA HOME BOTÃO */
+
+x
+/* BOTÃO VOLTAR PARA HOME */
+
 .home {
-    margin-left: 25%;
+    margin-left: 27%;
     margin-top: -130px;
 }
 
-form input, form textarea {
-    padding: 15px;
-    border: 1px solid cornflowerblue;
-    border-radius: 10px;
-    width: 50px;
-}
-
 /* CARRINHO DE COMPRA */
-
 .compra {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 /* FUNDO AZUL */
+
 .boxmodel2 {
-    width: 700px;
+    width: 600px;
     height: 550px;
     background-color: #95bafe;
-    margin-left: 400px;
+    margin: auto;
     align-items: center;
     border-radius: 20px;
     margin-top: -100px;
 }
 
-/* IMAGEM DE CHECK */
+/* IMAGEM DE "CHECK" */
+
 .correto {
     margin-top: -190px;
     width: 250px;
@@ -156,4 +168,71 @@ form input, form textarea {
 }
 
 
+/* ________________________________________________________________________________________________________________________ */
+ /* FOOTER */
 
+ footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+ }
+
+ .container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+    
+ }
+
+ .row-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+
+ .col-footer {
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+
+ .col-footer ul li {
+    margin: 10px 0;
+
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+    position: relative;
+    transition: padding-left 0.3s ease;
+ }
+
+ .col-footer ul li a:hover {
+    padding-left: 5px;
+ }
+
+ .col-footer img {
+    width: 250px;
+    height: auto;
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: -40px;
+ }
+
+/* ___________________________ */
+/* Coisas do fdp */
+
+body {
+    background-image: url(céu1.jpg);
+    background-size: cover;
+}
