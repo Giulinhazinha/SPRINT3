@@ -4,31 +4,18 @@
     font-family: 'Nunito'
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
-
-
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    position: absolute;
-    width: 1600px;
+    position: static;
+    width: auto;
     height: 94px;
     left: 0px;
     top: 0px;
     background: #95bafe;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-
-.plano-de-fundo {
-    background-image: url(img/fundo.jpeg);
-    width: 100%;
-    height: 130vh;
-    opacity: 100%;
 }
 
 .logo img {
@@ -64,36 +51,47 @@ nav li {
     gap: 82px;
     width: 755px;
     height: 36px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    transition: all 0.3s ease;
 
 }
 
 nav a:hover {
-    background-color: white;
-    color: #95bafe;
-     }
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
+}
 
 nav li img {
     width: 35px;
     height: 35px;
 }
-    
+
 .topde {
-    position: absolute;
-    width: 344.72px;
-    height: 63px;
-    left: 47px;
-    top: 142px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
-    background-color: #95bafe;
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
+}
+/* _________________________________________________ */
+.plano-de-fundo {
+    background-image: url(img/fundo.jpeg);
+    width: 100%;
+    height: 130vh;
+    opacity: 100%;
 }
 
-/* _________________________________________________________ */
 
 form div {
     display: inline-flex;
@@ -137,16 +135,17 @@ section {
     align-items: center;
     justify-content: center;
     height: 80vh;
+    
 }
 
-.h1home {
+h1 {
     padding: 10px;
     min-width: 200px;
     width: 40px;
     border: 3px solid rgb(6, 78, 212);
     border-radius: 10px;
-    background-color: cornflowerblue;
-    color: black;
+    background-color: #1D3B5E;
+    color: #E0CD80;
     justify-content: space-around;
     margin: 70px;
     font-size: 20px;
@@ -154,7 +153,7 @@ section {
     margin-top: -750px;
     margin-left: 20%;
 }
-.pacote1home {
+.pacote1 {
     width: 400px;
     height: 185px;
     background-color: #95bafe;
@@ -172,13 +171,13 @@ section {
     margin-left: 270px;
    }
 
-.imagem1home img {
+.imagem1 img {
     display: flex;
     width: 250px;
     height: 150px;
     margin-left: 150px;
     border-radius: 10px;
-    margin-top: -55px;
+    margin-top: -65px;
     
 
 }
@@ -203,10 +202,10 @@ section {
     
 }
 .preco:hover {
-    background: linear-gradient(#595FFD 40%, grey  90%);
+    background: linear-gradient(#1D3B5E 40%, grey  90%);
 }
 
-.pacote2home {
+.pacote2 {
     width: 400px;
     height: 185px;
     background-color: #95bafe;
@@ -216,23 +215,23 @@ section {
     
 }
 
-.pacote2home :hover {
+.pacote2:hover {
     color: white;
     border: #595FFD 3px;
 }
 
-.pacote1home :hover {
+.pacote1:hover {
     color: white;
     border: #595FFD 3px;
 }
 
-.imagem2home img {
+.imagem2 img {
     display: flex;
     width: 250px;
     height: 150px;
     margin-left: 150px;
     border-radius: 10px;
-    margin-top: -81px;
+    margin-top: -98px;
 
 }
 
@@ -247,7 +246,7 @@ section {
     display: inline-block;
     width: 200px;
     height: 75px;
-    background-color: #595FFD;
+    background-color: #1D3B5E;
     align-items: center;
     text-align: center;
     border-radius: 10px;
@@ -271,7 +270,7 @@ section {
     border-radius: 10px;
     margin-top: 150px;
     margin-left: 100px;
-    text-decoration: none; /*Não funcionou*/
+    text-decoration: white;
 }
 
 
@@ -280,23 +279,20 @@ section {
     margin-top: -35px;
 }
 
-/* Footer */
 footer {
     background-color: #234C8A;
     padding: 50px 0;
- }
+}
 
- .container-footer {
+.container-footer {
     max-width: auto;
     padding: 0 4%;
     margin: auto;
- }
+}
 
- .row-footer {
+.row-footer {
     display: flex;
-    /* flex-wrap: wrap; */
- }
-
+}
  .col-footer {
     width: 25%;
     padding: 0 15px;
@@ -317,10 +313,8 @@ footer {
  .col-footer ul {
     list-style: none;
  }
-
  .col-footer ul li {
     margin: 10px 0;
-
  }
 
  .col-footer ul li a {
@@ -333,6 +327,5 @@ footer {
  .col-footer ul li a:hover {
     color: #E0CD80;
     padding-left: 5px;
-
  }
-
+ 
