@@ -128,17 +128,23 @@ background-color: #95bafe;
     border: none;
     background-color: #d9d9d9;
 }
-.botaocontato [type=submit] {
+
+.botaocontato {
     background-color: #95bafe;
     width: 399px;
-    height: 50px;
+    height: 40px;
     border: none;
+    padding-top: 4%;
+    text-align: center;
+    transition: all 0.3s ease;
+    
 }
 
-.botaocontato a:hover { /*ajuda*/
-    background-color: #1d3b5e;
-    color: #e0cd80;
+.botaocontato:hover {
+    background-color: #1D3B5E;
+    color: #E0CD80;
 }
+
 
 .redes {
     margin-left: 7%;
