@@ -75,15 +75,8 @@ nav a:hover {
 /* FUNDO AZUL */
 /*-- ___________________________________________________________________________________________________________________________ */
 
-.Boxmodel{
-    width: 400px;
-    height: 370px;
-    background-color: #95bafe;
-    margin-left: 35%;
-    align-items: center;
-    border-radius: 20px;
-    
-}
+
+
 /* "FAÇA O LOGIN [FRASE NO TOPO]" */
 /*-- ___________________________________________________________________________________________________________________________ */
 
@@ -179,6 +172,14 @@ form label {
     padding: 0 15px;
  }
 
+ .col-footer img {
+    width: 300px;
+    height: auto;
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: -40px;
+ }
+
  .col-footer h4 {
     font-size: 20px;
     color: #E0CD80;
@@ -199,11 +200,20 @@ form label {
     font-size: 20px;
     text-decoration: none;
     color: #E0CD80;
+    transition: all 0.3s ease;
  }
 
+.col-footer ul li a:hover {
+    color: #E0CD80;
+    padding-left: 5px;
+}
 
-
-
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
  /*  */
  /*  */
 
@@ -222,34 +232,42 @@ th {
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #1D3B5E;
+    background: #234C8A;
     font-weight: normal;
 }
 td {
     padding: 10px 5px;
+    margin-right: 500px;
 }
 td input {
     width: 40px;
     height: 30px;
     padding: 5px;
+    margin-right: 400px;
 }
 td a {
     color: #1D3B5E;
     font-size: 12px;
 }
-td img {
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+.subtotais{
+    margin-right: 100px;
 }
+
+.valor {
+    margin-right: -500px;
+}
+
 .total-price {
     display: flex;
     justify-content: flex-end;
+    margin-left: 00px;
+    
 }
 .total-price table {
     border-top: 3px solid #1D3B5E;
     width: 100%;
     max-width: 400px;
+    
 }
 td:last-child {
     text-align: right;
@@ -291,3 +309,16 @@ th:last-child {
 .iconify {
     padding: 0 10px;
 }
+
+tr td div img {
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+}
+
+
+.pacote {
+    padding: 50px;
+    margin-left: -40px;
+}
+
