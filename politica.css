@@ -107,15 +107,19 @@ background-color: #95bafe;
     color: #234C8A;
     font-weight: 1000;
     margin-left: 7%;
-    
-
-
-
+    font-size: 25px;
 }
+
+.topicos {
+    margin-left: 7%;
+    font-size: 22px;
+}
+
 .desc {
     margin-left: 7%;
-
+    font-size: 20px;
 }
+
 /* _________________________________________________________________________ */
 
 footer {
