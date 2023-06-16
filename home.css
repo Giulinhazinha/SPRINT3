@@ -78,7 +78,22 @@ nav a:hover {
     color: #95bafe;
      }
 
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+    
+.topde {
+    position: absolute;
+    width: 344.72px;
+    height: 63px;
+    left: 47px;
+    top: 142px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+    background-color: #95bafe;
+}
 
+/* _________________________________________________________ */
 
 form div {
     display: inline-flex;
@@ -124,7 +139,7 @@ section {
     height: 80vh;
 }
 
-h1 {
+.h1home {
     padding: 10px;
     min-width: 200px;
     width: 40px;
@@ -139,7 +154,7 @@ h1 {
     margin-top: -750px;
     margin-left: 20%;
 }
-.pacote1 {
+.pacote1home {
     width: 400px;
     height: 185px;
     background-color: #95bafe;
@@ -157,7 +172,7 @@ h1 {
     margin-left: 270px;
    }
 
-.imagem1 img {
+.imagem1home img {
     display: flex;
     width: 250px;
     height: 150px;
@@ -191,7 +206,7 @@ h1 {
     background: linear-gradient(#595FFD 40%, grey  90%);
 }
 
-.pacote2 {
+.pacote2home {
     width: 400px;
     height: 185px;
     background-color: #95bafe;
@@ -201,17 +216,17 @@ h1 {
     
 }
 
-.pacote2:hover {
+.pacote2home :hover {
     color: white;
     border: #595FFD 3px;
 }
 
-.pacote1:hover {
+.pacote1home :hover {
     color: white;
     border: #595FFD 3px;
 }
 
-.imagem2 img {
+.imagem2home img {
     display: flex;
     width: 250px;
     height: 150px;
@@ -256,6 +271,7 @@ h1 {
     border-radius: 10px;
     margin-top: 150px;
     margin-left: 100px;
+    text-decoration: none; /*Não funcionou*/
 }
 
 
