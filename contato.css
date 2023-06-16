@@ -245,7 +245,7 @@ footer {
 
  .direitos {
     position: absolute;
-    /* bottom: 0; */
+    bottom: -850px; 
     width: 100%;
     text-align: center;
     line-height: 100px; 
