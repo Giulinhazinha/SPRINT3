@@ -364,7 +364,7 @@ h1 {
 }
 /* ____________________________________________________________________________________________ */
 /* Contato */
-.forms {
+.formscontato {
   
     display: flex;
     flex-direction: column;
@@ -378,10 +378,10 @@ h1 {
     display: auto;
     margin: auto;
     margin-left: 7%;
-    margin-top: -555px; /*Alterar posição*/
+    margin-top: -547px; /*Alterar posição*/
 }
 
-.inputforms {
+.inputcontato {
     border: 3px solid #95bafe;
     width: 399px;
     -moz-box-sizing: border-box;
@@ -389,26 +389,31 @@ h1 {
     height: 63px;
     background-color: #d9d9d9;
 }
-.inputforms a:hover { /*Não funcionou*/
-    background-color: white;
-    color: #95bafe;
-}
- .caixatexto {
-    Border: 3px solid #95bafe;
+
+.caixatextocontato {
+    Border: 4px solid #95bafe;
     width: 500px;
     -moz-box-sizing: border-box; 
      box-sizing: border-box;
     height: 9em;    
 }
 
-textarea{
-    width: 495px;
-    height: 10.5em;
+.textareacontato{
+    width: 493px;
+    height: 10.3em;
     border: none;
     background-color: #d9d9d9;
 }
-.botao [type=submit] {
+.botaocontato [type=submit] {
     background-color: #95bafe;
+    width: 399px;
+    height: 50px;
+    border: none;
+}
+
+.botaocontato a:hover { /*ajuda*/
+    background-color: #1d3b5e;
+    color: #e0cd80;
 }
 
 .redes {
@@ -450,6 +455,7 @@ textarea{
 .logoapp {
     justify-content: space-between;
 }
+
 /* ____________________________________________________________________________________________ */
 /* Agendamento  */
 
