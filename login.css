@@ -94,7 +94,7 @@ background-color: #95bafe;
     width: 400px;
     height: 370px;
     background-color: #95bafe;
-    margin-left: 35%;
+    margin-left: 37%;
     align-items: center;
     border-radius: 20px;
     
@@ -214,4 +214,25 @@ form label {
     font-size: 20px;
     text-decoration: none;
     color: #E0CD80;
+    position: relative;
+    transition: padding-left 0.3s ease;
  }
+
+ .col-footer ul li a:hover {
+    padding-left: 5px;
+ }
+
+ .col-footer img {
+    width: 250px;
+    height: auto;
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: -40px;
+ }
+
+/* __________________________________ */
+/* Coisas que o fdp fez */
+
+body {
+    background-image: image();
+}
