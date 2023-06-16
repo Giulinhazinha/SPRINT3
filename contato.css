@@ -243,3 +243,15 @@ footer {
 
  }
 
+ .direitos {
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    text-align: center;
+    line-height: 100px; 
+    color: #E0CD80;
+  
+
+   
+}
+
