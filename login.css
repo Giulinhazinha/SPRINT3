@@ -234,5 +234,6 @@ form label {
 /* Coisas que o fdp fez */
 
 body {
-    background-image: image();
+    background-image: url(voador.jpg);
+    background-size: cover;
 }
