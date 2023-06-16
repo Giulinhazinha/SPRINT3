@@ -322,3 +322,15 @@ tr td div img {
     margin-left: -40px;
 }
 
+
+div input[type=submit] {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
