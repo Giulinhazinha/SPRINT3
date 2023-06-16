@@ -5,16 +5,13 @@
     font-family: 'Nunito'
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    position: absolute;
-    width: 1600px;
+    position: static;
+    width: auto;
     height: 94px;
     left: 0px;
     top: 0px;
@@ -55,24 +52,43 @@ nav li {
     gap: 82px;
     width: 755px;
     height: 36px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
     font-weight: bold;
-    +
     color: black;
+    transition: all 0.3s ease;
 
 }
 
 nav a:hover {
-    background-color: white;
-    color: #95bafe;
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
+}
+
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+
+.topde {
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
 }
 
  /* Página contato*/ 
 
-.forms {
+.formscontato {
   
     display: flex;
     flex-direction: column;
@@ -101,7 +117,7 @@ nav a:hover {
     background-color: white;
     color: #95bafe;
 }
- .caixatexto {
+ .caixatexto{
     Border: 3px solid #95bafe;
     width: 500px;
     -moz-box-sizing: border-box; 
@@ -109,13 +125,13 @@ nav a:hover {
     height: 9em;    
 }
 
-textarea{
+.textareaforms2{
     width: 495px;
     height: 10.5em;
     border: none;
     background-color: #d9d9d9;
 }
-.botao [type=submit] {
+.botaoenviarforms [type=submit] {
     background-color: #95bafe;
 }
 
@@ -133,15 +149,15 @@ textarea{
     justify-content: space-around;
 }
 
-.titulo1 {
+.tituloforms1 {
     font-size: 30px;
 } 
-.titulo2 {
+.tituloforms2 {
     font-size: 30px;
-} .titulo3 {
+} .tituloforms3 {
     font-size: 30px;
 }
-.titulo4 {
+.tituloforms4 {
     font-size: 30px;
 }
 
@@ -155,7 +171,7 @@ textarea{
 }
 
 
-.logoapp {
+.logoappforms {
     justify-content: space-between;
 }
 
