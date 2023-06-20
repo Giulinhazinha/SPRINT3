@@ -300,3 +300,11 @@ footer {
     height: 90px;
     width: 80px;
  }
+ .direitos {
+    position: absolute;
+    bottom: -850px; 
+    width: 100%;
+    text-align: center;
+    line-height: 100px; 
+    color: #E0CD80;
+}
