@@ -103,7 +103,7 @@ background-color: #95bafe;
 /*-- ___________________________________________________________________________________________________________________________ */
 
 .intro{
-    margin-left: 100px;
+    margin-left: 115px;
 }
 
 /* AJUSTA AS CAIXAS DE PERGUNTAS */
@@ -245,4 +245,13 @@ form label {
 body {
     background-image: url(céu1.jpg);
     background-size: cover;
+}
+
+.termos {
+    padding-left: 00px;
+    text-align: center;
+}
+
+.politica {
+    color: blue;
 }

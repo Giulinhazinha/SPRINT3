@@ -128,7 +128,7 @@ form input, form textarea {
 
 .boxmodel2 {
     width: 600px;
-    height: 550px;
+    height: 500px;
     background-color: #95bafe;
     margin: auto;
     align-items: center;
@@ -233,6 +233,16 @@ form input, form textarea {
  body {
     background-image: url(céu1.jpg);
     background-size: cover;
+}
+
+/* termos e politica copyright */
+.termos {
+    padding-left: 00px;
+    text-align: center;
+}
+
+.politica {
+    color: blue;
 }
 
 

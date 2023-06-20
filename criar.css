@@ -220,4 +220,14 @@ body {
  }
 
 /* __________________________________ */
-/* Coisas que o fdp fez */
+/* Coisas que o fez */
+
+/* termos e politica copyright */
+.termos {
+    padding-left: 00px;
+    text-align: center;
+}
+
+.politica {
+    color: blue;
+}
