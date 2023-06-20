@@ -151,7 +151,7 @@ background-color: #95bafe;
     margin-top: 5%;
 }
 .sociais { 
-    margin-left: -25px;
+    margin-left: -15px;
     list-style: none;
     display: flex; 
     align-items:start
@@ -163,24 +163,26 @@ background-color: #95bafe;
 .titulo1 {
     text-align: center;
     height: auto;
-    width: 250px;
+    width: 220px;
     border-radius: 10px;
     background-color: #1D3B5E;
     color: #E0CD80;
     font-size: 30px;
 } 
 .titulo2 {
+    text-align: center;
     height: auto;
-    width: 250px;
+    width: 350px;
     border-radius: 10px;
     background-color: #1D3B5E;
     color: #E0CD80;
     font-size: 30px;
+    
 
 } .titulo3 {
     text-align: center;
     height: auto;
-    width: 250px;
+    width: 210px;
     border-radius: 10px;
     background-color: #1D3B5E;
     color: #E0CD80;
@@ -189,7 +191,7 @@ background-color: #95bafe;
 .titulo4 {
     text-align: center;
     height: auto;
-    width: 250px;
+    width: 280px;
     border-radius: 10px;
     background-color: #1D3B5E;
     color: #E0CD80;
