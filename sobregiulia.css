@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin:0; 
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: 'Nunito';
+}
+
+.container{
+    padding:15px 9%;
+    padding-bottom: 100px;
+    color: black;
+}
+
+.container:hover {
+    color: #E0CD80;
+}
+
+.container .heading{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color: #1D3B5E;
+    color:#E0CD80;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 30px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container .box-container-sobreaskywaytrip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+    color: #E0CD80;
+}
+
+.container .box-container-sobreaskywaytrip .boxsobreaempresa {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    color: black;
+    background: #95BAFE;
+    text-align: center;
+    padding: 30px 20px;
+    transition: all 0.3s ease;
+}
+
+.container .box-container-sobreaskywaytrip .boxsobreaempresa:hover {
+    background-color: #234C8A;
+    color: #E0CD80;
+}
+
+.container .box-container-sobreaskywaytrip .boxsobreaempresa h3 {
+    font-size: 22px;
+    padding:10px 0;
+}
+
+
+.container .box-container-sobreaskywaytrip .boxsobreaempresa p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container-sobreaskywaytrip .boxsobreaempresa ul li {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
