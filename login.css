@@ -23,7 +23,7 @@ header {
 }
 
 .logo img {
-    width: 161px;
+    width: 111px;
     height: 94px;
 }
 
@@ -256,7 +256,7 @@ body {
 
 .direitos {
     position: absolute;
-    bottom: -413px; 
+    bottom: -393px; 
     width: 96%;
     text-align: center;
     line-height: 100px; 

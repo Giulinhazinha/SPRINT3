@@ -69,9 +69,9 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #234C8A;
+    color: #E0CD80;
     border-radius: 5px;
-    color: #95bafe;
 }
 
 
@@ -246,7 +246,7 @@ form input, form textarea {
 }
 .direitos {
     position: absolute;
-    bottom: -550px; 
+    bottom: -530px; 
     width: 96%;
     text-align: center;
     line-height: 100px; 

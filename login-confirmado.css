@@ -59,6 +59,7 @@ nav li {
     gap: 82px;
     width: 755px;
     height: 36px;
+    font-size: 20px;
 }
 
 nav a {
@@ -69,9 +70,9 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #234C8A;
+    color: #E0CD80;
     border-radius: 5px;
-    color: #95bafe;
 }
 
 
@@ -248,7 +249,7 @@ form input, form textarea {
 
 .direitos {
     position: absolute;
-    bottom: -600px; 
+    bottom: -580px; 
     width: 96%;
     text-align: center;
     line-height: 100px; 
