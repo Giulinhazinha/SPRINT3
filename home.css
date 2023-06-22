@@ -161,6 +161,12 @@ h1 {
     margin-left: 20%;
     margin-top: 150px;
 }
+.pacote1 a {
+    color: white;
+}
+.pacote2 a {
+    color: white;
+}
 
 .estrela {
     width: 10px;
