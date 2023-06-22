@@ -87,20 +87,21 @@ background-color: #95bafe;
 
     
 .carrinho {
-    height: 120px;
-    width: 250px;
+    height: 63px;
+    width: 300px;
     border-radius: 10px;
     background-color: #1f3763;
+    padding-top: 10px;
     margin-top: 120px;
     margin-left: 30px ;
+    margin-left: 120px;
     
 }
 
 .carrinho h1{
-    color: rgb(225, 205, 104);
+    color: #E0CD80;
     align-items: center;
     text-align: center;
-    
 }
 
 .agendamento1 {
@@ -108,11 +109,12 @@ background-color: #95bafe;
     border-radius: 10px;
     width: 800px;
     background-color: #D9D9D9;
-    margin: 100px;
+    margin: 120px;
     margin-top: 80px;
     align-items: center;
     padding-top: 10px;
     padding-left: 10px;
+    transition: all 0.3s ease;
 }
 
 .agendamento2 {
@@ -120,9 +122,10 @@ background-color: #95bafe;
     border-radius: 10px;
     width: 800px;
     background-color: #D9D9D9;
-    margin: 100px;
+    margin: 120px;
     padding-left: 10px;
     padding-top: 10px;
+    transition: all 0.3s ease;
 }
 
 .agendamento3 {
@@ -130,9 +133,10 @@ background-color: #95bafe;
     border-radius: 10px;
     width: 800px;
     background-color: #D9D9D9;
-    margin: 100px;
+    margin: 120px;
     padding-left: 10px;
     padding-top: 10px;
+    transition: all 0.3s ease;
 }
 
 .agendamento4 {
@@ -140,9 +144,58 @@ background-color: #95bafe;
     border-radius: 10px;
     width: 800px;
     background-color: #D9D9D9;
-    margin: 100px;
+    margin-left: 10px;
+    margin: 120px;
     padding-top: 10px;
     padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.agendamento1 a {
+    text-decoration: none;
+    color: black;
+}
+.agendamento2 a {
+    text-decoration: none;
+    color: black;
+}
+.agendamento3 a {
+    text-decoration: none;
+    color: black;
+}
+.agendamento4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.agendamento1 a:hover {
+    text-decoration: none;
+    color: black;
+}
+.agendamento2 a:hover {
+    text-decoration: none;
+    color: black;
+}
+.agendamento3 a:hover {
+    text-decoration: none;
+    color: black;
+}
+.agendamento4 a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.agendamento1:hover {
+    background-color: #95BAFE;
+}
+.agendamento2:hover {
+    background-color: #95BAFE;
+}
+.agendamento3:hover {
+    background-color: #95BAFE;
+}
+.agendamento4:hover {
+    background-color: #95BAFE;
 }
 
 .conosco {
@@ -219,19 +272,104 @@ input[type=button] {
     
 }
 
-footer {
-    background-color: #234C8A;
+.botaoprecisadeajuda {
+    position: absolute;
+    background: #95BAFE;
+    color: #FFFFFF;
+    border-radius: 15px;
+    width: 430px;
+    height: 100px;
+    bottom: 0%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 9px;
+    text-align: center;
+    top: 1300px;
+    left: 120px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    transition: all 0.3s ease;
 }
 
-.container-footer {
+.botaoprecisadeajuda:hover {
+    background-color: #234C8A;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+
+ .botaoprecisadeajuda p {
+    padding-top: 20px;
+    margin-top: 5px;
+ }
+
+ .botaoprecisadeajuda a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .botaoprecisadeajuda a:hover {
+    color: white;
+ }
+
+ .desejacancelar {
+    flex-direction: column;
+    position: absolute;
+    background: #95BAFE;
+    color: white;
+    width: 180px;
+    height: 170px;
+    border-radius: 15px;
+    left: 700px;
+    top: 1300px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    justify-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    transition: all 0.3s ease;
+}
+
+.desejacancelar:hover {
+    background-color: #234C8A;
+    color: white;
+    padding-left: 5px;
+}
+
+.desejacancelar p {
+    padding-left: 15px;
+    padding-top: 5px;;
+}
+
+.desejacancelar a {
+    text-decoration: none;
+    color: black;
+}
+
+.desejacancelar a:hover {
+    color: white;
+}
+
+
+footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+ }
+
+ .container-footer {
     max-width: auto;
     padding: 0 4%;
     margin: auto;
-}
+ }
 
-.row-footer {
+ .row-footer {
     display: flex;
-}
+    /* flex-wrap: wrap; */
+ }
+
  .col-footer {
     width: 25%;
     padding: 0 15px;
@@ -252,8 +390,10 @@ footer {
  .col-footer ul {
     list-style: none;
  }
+
  .col-footer ul li {
     margin: 10px 0;
+
  }
 
  .col-footer ul li a {
@@ -266,6 +406,7 @@ footer {
  .col-footer ul li a:hover {
     color: #E0CD80;
     padding-left: 5px;
+
  }
 
  .container-denis {
@@ -279,6 +420,7 @@ footer {
  }
 
  .Denis {
+    padding-top: 10px;
     color: white;
     margin: 30px;
  }
@@ -315,3 +457,4 @@ footer {
     line-height: 100px; 
     color: #E0CD80;
 }
+
