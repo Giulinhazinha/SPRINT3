@@ -96,8 +96,8 @@ nav li img {
     position: relative;
     background-color: #1D3B5E;
     color: #E0CD80;
-    font-size: 25px;
-    width: 300px;
+    font-size: 40px;
+    width: 390px;
     height: auto;
     top: 50px;
     left: 100px;
@@ -105,12 +105,12 @@ nav li img {
     border-radius: 10px;
     font-weight: bold;
 }
-.pacotesmaisamados {
+.pacotesmaisamados { /*Aqui*/
     position: relative;
     background-color: #1D3B5E;
     color: #E0CD80;
-    font-size: 25px;
-    width: 300px;
+    font-size: 40px;
+    width: 430px;
     height: auto;
     top: 100px;
     left: 100px;
@@ -136,7 +136,7 @@ nav li img {
 
 .pacotesmaisamadosimagens2 img {
     position: absolute;
-    top: 835px;
+    top: 920px;
     width: 553px;
     height: 298px;
     left: 800px;
@@ -149,18 +149,20 @@ nav li img {
     border-radius: 10px;
 }
 
-.osmelhorescruzeiros {
-    position: absolute;
+.osmelhorescruzeiros { 
+    position: relative;
     background-color: #1D3B5E;
     color: #E0CD80;
-    font-size: 25px;
-    width: 300px;
+    font-size: 40px;
+    width: 430px;
     height: auto;
-    top: 1300px;
+    margin-top: 350px;
+    top: 10px;
     left: 100px;
     text-align: center;
     border-radius: 10px;
     font-weight: bold;
+
 }
 
 .osmelhorescruzeiroimagens {
@@ -189,7 +191,7 @@ nav li img {
     position: absolute;
     background-color: #1D3B5E;
     color: #E0CD80;
-    font-size: 25px;
+    font-size: 40px;
     width: 300px;
     height: auto;
     top: 1900px;
