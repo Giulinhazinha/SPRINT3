@@ -69,9 +69,9 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #234C8A;
+    color: #E0CD80;
     border-radius: 5px;
-    color: #95bafe;
 }
 
 
@@ -216,7 +216,7 @@ form input, form textarea {
  
  .direitos {
     position: absolute;
-    bottom: -850px; 
+    bottom: -530px; 
     width: 100%;
     text-align: center;
     line-height: 100px; 
@@ -238,8 +238,15 @@ form input, form textarea {
 
 /* termos e politica copyright */
 .termos {
-    padding-left: 00px;
+    padding-left: -200px;
     text-align: center;
 
 }
 
+<<<<<<< HEAD
+=======
+.politica {
+    color: blue;
+}
+
+>>>>>>> 21a1118ce51dd1e46925104e38ef1d0dd961212d
