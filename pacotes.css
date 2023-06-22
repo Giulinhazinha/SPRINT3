@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    font-family: 'Nunito';
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: auto;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+nav a:hover {
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
+}
+
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.container img {
+    width: 234px;
+    height: 281px;
+    transition: all 0.3s ease;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.container img:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.topdestinosbrasil {
+    position: relative;
+    background-color: #1D3B5E;
+    color: #E0CD80;
+    font-size: 25px;
+    width: 300px;
+    height: auto;
+    top: 50px;
+    left: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.pacotesmaisamados {
+    position: relative;
+    background-color: #1D3B5E;
+    color: #E0CD80;
+    font-size: 25px;
+    width: 300px;
+    height: auto;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.pacotesmaisamadosimagens1 img {
+    position: relative;
+    width: 553px;
+    height: 298px;
+    left: 120px;
+    top: 200px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.pacotesmaisamadosimagens1 img:hover {
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.pacotesmaisamadosimagens2 img {
+    position: absolute;
+    top: 835px;
+    width: 553px;
+    height: 298px;
+    left: 800px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.pacotesmaisamadosimagens2 img:hover {
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.osmelhorescruzeiros {
+    position: absolute;
+    background-color: #1D3B5E;
+    color: #E0CD80;
+    font-size: 25px;
+    width: 300px;
+    height: auto;
+    top: 1300px;
+    left: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.osmelhorescruzeiroimagens {
+    position: absolute;
+    display: flex;
+    top: 1500px;
+    gap: 100px;
+    margin-left: 200px;
+}
+
+.osmelhorescruzeiroimagens img {
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.osmelhorescruzeiroimagens img:hover {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* NOSSOS SERVIÇOS */
+.nossosservicos {
+    position: absolute;
+    background-color: #1D3B5E;
+    color: #E0CD80;
+    font-size: 25px;
+    width: 300px;
+    height: auto;
+    top: 1900px;
+    left: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nossosservicosimagens {
+    position: absolute;
+    display: flex;
+    top: 2100px;
+    gap: 100px;
+    margin-left: 50px;
+}
+
+.nossosservicosimagens img {
+    width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.nossosservicosimagens img:hover {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+ }
+
+ .container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+ }
+
+ .row-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+
+ .col-footer {
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col-footer img {
+    width: 300px;
+    height: auto;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+
+ .col-footer ul li {
+    margin: 10px 0;
+
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+    transition: all 0.3s ease;
+ }
+
+ .col-footer ul li a:hover {
+    color: #E0CD80;
+    padding-left: 5px;
+
+ }
