@@ -99,7 +99,7 @@ form label {
 
 /* "LOGIN FEITO COM SUCESSO" */
 .conta {
-    margin-left: 39%;
+    margin-left: 38%;
 }
 
 
@@ -107,13 +107,26 @@ form label {
 .home {
     margin-left: 27%;
     margin-top: -130px;
+
 }
 
-form input, form textarea {
+.homes {
     padding: 15px;
-    border: 1px solid cornflowerblue;
+    background-color: cor;
     border-radius: 10px;
     width: 50px;
+    margin-left: 36%;
+    margin-top: -170px;
+}
+
+input[type=submit] {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    border: 20px solid cornflowerblue;
+    border-radius: 10px;
+    margin-left: 3%;
+    
 }
 
 /* CARRINHO DE COMPRA */
@@ -129,7 +142,7 @@ form input, form textarea {
 
 .boxmodel2 {
     width: 600px;
-    height: 550px;
+    height: 500px;
     background-color: #95bafe;
     margin: auto;
     align-items: center;
@@ -137,22 +150,9 @@ form input, form textarea {
     margin-top: -100px;
 }
 
-.boxmodel2 a {
-    padding: none;
-    /* background-color: blue; */
-    color: white;
-    text-decoration: none;
-    font-size: x-large;
-    position: relative;
-    left: 60px;
-    transition: padding-top 0.5s ease;
-}
 
-.boxmodel2 a:hover {
-    color: wheat;
-    padding-top: 10px;
-    text-decoration: underline;
-}
+
+
 
 /* IMAGEM DE "CHECK" */
 .correto {
@@ -163,8 +163,9 @@ form input, form textarea {
 }
 
 /* ________________________________________________________________________________________________________________________ */
- /* Footer */
-footer {
+ /* FOOTER */
+
+ footer {
     background-color: #234C8A;
     padding: 50px 0;
  }
@@ -210,7 +211,7 @@ footer {
     font-size: 20px;
     text-decoration: none;
     color: #E0CD80;
-    transition: all 0.3s ease;
+    
  }
 
  .col-footer ul li a:hover {
@@ -228,15 +229,7 @@ footer {
     color: #E0CD80;
 }
 
-  
-
- .col-footer img {
-    width: 250px;
-    height: auto;
-    max-width: 500px;
-    margin-right: 200px;
-    margin-top: -40px;
- }
+ /* ______________________________________________________ */
 
  body {
     background-image: url(céu1.jpg);
@@ -252,14 +245,14 @@ footer {
 .politica {
     color: blue;
 }
-
 .direitos {
     position: absolute;
-    bottom: -580px; 
+    bottom: -520px; 
     width: 96%;
     text-align: center;
     line-height: 100px; 
     color: #E0CD80;
 }
+
 
 
