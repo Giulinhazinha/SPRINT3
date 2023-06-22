@@ -104,36 +104,45 @@ background-color: #95bafe;
 }
 
 .agendamento1 {
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     width: 800px;
-    background-color: grey;
-    margin: 30px;
+    background-color: #D9D9D9;
+    margin: 100px;
     margin-top: 80px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .agendamento2 {
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     width: 800px;
-    background-color: grey;
-    margin: 30px;
+    background-color: #D9D9D9;
+    margin: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .agendamento3 {
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     width: 800px;
-    background-color: grey;
-    margin: 30px;
+    background-color: #D9D9D9;
+    margin: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .agendamento4 {
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     width: 800px;
-    background-color: grey;
-    margin: 30px;
+    background-color: #D9D9D9;
+    margin: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .conosco {
@@ -291,12 +300,12 @@ footer {
     margin-top: -50px;
  }
  .mala {
-    border-radius: 520px;
+    border-radius: 1000px;
     display: flex;
     margin-left: 1060px;
-    margin-top: -70px;
-    height: 90px;
-    width: 80px;
+    margin-top: -85px;
+    height: 100px;
+    width: 100px;
  }
  .direitos {
     position: absolute;
