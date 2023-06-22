@@ -105,9 +105,10 @@ background-color: #95bafe;
     background-color: #1D3B5E;
     color:#E0CD80;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
-    font-size: 30px;
-    width: 300px;
-    height: auto;
+    font-size: 40px;
+    padding-top: 7px;
+    width: 400px;
+    height: 45px;
     border-radius: 10px;
 }
 
