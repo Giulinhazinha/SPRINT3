@@ -449,12 +449,13 @@ footer {
     height: 100px;
     width: 100px;
  }
- .direitos {
-    position: absolute;
-    bottom: -850px; 
+
+ /* .direitos {
+    position: relative; 
     width: 100%;
     text-align: center;
     line-height: 100px; 
     color: #E0CD80;
-}
+} */
+
 
