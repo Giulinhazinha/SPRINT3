@@ -216,7 +216,7 @@ form input, form textarea {
  
  .direitos {
     position: absolute;
-    bottom: -850px; 
+    bottom: -530px; 
     width: 100%;
     text-align: center;
     line-height: 100px; 
@@ -238,7 +238,7 @@ form input, form textarea {
 
 /* termos e politica copyright */
 .termos {
-    padding-left: 00px;
+    padding-left: -200px;
     text-align: center;
 
 }

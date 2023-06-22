@@ -98,7 +98,7 @@ form label {
 
 /* "LOGIN FEITO COM SUCESSO" */
 .conta {
-    margin-left: 36%;
+    margin-left: 34%;
 }
 
 
@@ -213,15 +213,15 @@ form input, form textarea {
  .col-footer ul li a:hover {
     padding-left: 5px;
  }
+ 
  .direitos {
     position: absolute;
-    bottom: -850px; 
+    bottom: -530px; 
     width: 100%;
     text-align: center;
     line-height: 100px; 
     color: #E0CD80;
 }
-  
 
  .col-footer img {
     width: 250px;
@@ -236,14 +236,14 @@ form input, form textarea {
     background-size: cover;
 }
 
-
 /* termos e politica copyright */
 .termos {
-    padding-left: 00px;
+    padding-left: -200px;
     text-align: center;
+
 }
 
 .politica {
-    color: blue;
+    color: ;
 }
 
