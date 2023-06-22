@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1600px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+    margin-top:50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+    margin-left: 300px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.link:hover {
+    background-color: white;
+    color: #95bafe;
+}
+.sobre_a_empresa_ { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1365px;
+	position:absolute;
+}
+.frame_48 { 
+	background-color:rgba(149.00000631809235, 186.0000041127205, 254.00000005960464, 1);
+	width:1440px;
+	height:94px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.frame_47 { 
+	width:1265px;
+	height:94px;
+	position:absolute;
+	left:87.5px;
+	top:0px;
+}
+.logo { 
+	width:243px;
+	height:210px;
+	position:absolute;
+	left:10px;
+	top:-49px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.frame_45 { 
+	width:1091px;
+	height:54px;
+	position:absolute;
+	left:174px;
+	top:20px;
+}
+.frame_44 { 
+	width:755px;
+	height:36px;
+	position:absolute;
+	left:0px;
+	top:9px;
+}
+.healthicons_ui_user_profile { 
+	width:54px;
+	height:54px;
+	position:absolute;
+	left:1037px;
+	top:0px;
+}
+.group { 
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:4px;
+	top:4px;
+}
+.group_23 { 
+	width:1443px;
+	height:273px;
+	position:absolute;
+	left:0px;
+	top:1128px;
+}
+.rectangle_47 { 
+	background-color:rgba(149.00000631809235, 186.0000041127205, 254.00000005960464, 1);
+	width:424px;
+	height:300px;
+	position:absolute;
+	left:52px;
+	top:257px;
+}
+.rectangle_48 { 
+	background-color:rgba(149.00000631809235, 186.0000041127205, 254.00000005960464, 1);
+	width:455px;
+	height:298px;
+	text-align: center;
+	position:absolute;
+	left:950px;
+	top:257px;
+}
+.frame_66 { 
+	width:434px;
+	height:204px;
+	position:absolute;
+	left:1000px;
+	top:290px;
+}
+.valores { 
+	color:rgba(0, 0, 0, 1);
+	position:absolute;
+	left:130px;
+	top:0px;
+	font-family:Nunito;
+	text-align: center;
+	font-size:25px;
+	letter-spacing:0;
+	font-weight: bold;
+}
+
+.acompanhamento_completo__compromisso_com_o_crescimento__atenciosidade_em_suas_necessidades_ { 
+	color:rgba(0, 0, 0, 1);
+	width:459px;
+	height:206px;
+	position:absolute;
+	left:-20px;
+	top:72px;
+	font-family:Nunito;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}
+.rectangle_49 { 
+	background-color:rgba(149.00000631809235, 186.0000041127205, 254.00000005960464, 1);
+	width:434px;
+	height:300px;
+	position:absolute;
+	left:496px;
+	top:257px;
+}
+.frame_73 { 
+	width:383px;
+	height:172px;
+	position:absolute;
+	left:523px;
+	top:290px;
+}
+.frame_67 { 
+	width:66px;
+	height:34px;
+	position:absolute;
+	left:158.5px;
+	top:0px;
+}
+.vis_o { 
+	color:rgba(0, 0, 0, 1);
+	width:66px;
+	height:34px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Nunito;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:0;
+	font-weight: bold;
+}
+.conectar_milhares_de_viajantes_a_experi_ncias_imperd_veis_atrav_s_do_mundo_ { 
+	color:rgba(0, 0, 0, 1);
+	width:383px;
+	height:102px;
+	position:absolute;
+	left:0px;
+	top:70px;
+	font-family:Nunito;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:0;
+}
+.na_skywaytrip__investimos_continuamente_em_tecnologias_que_ajudam_a_tornar_as_viagens_mais_tranquilas__simples_e_agrad_veis_ { 
+	color:rgba(0, 0, 0, 1);
+	width:392px;
+	height:196px;
+	position:absolute;
+	left:68px;
+	top:300px;
+	font-family:nunito;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:0;
+}
+.miss_o { 
+	color:rgba(0, 0, 0, 1);
+	width:88px;
+	height:30px;
+	position:absolute;
+	left:223px;
+	top:290px;
+	font-family:nunito;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:0;
+font-weight: bold;
+}
+.frame_75 { 
+	width:995px;
+	height:169px;
+	position:absolute;
+	left:250px;
+	top:829px;
+}
+.conhe_a_um_pouco_da_nossa_trajet_ria { 
+	color:rgba(71.00000336766243, 132.0000073313713, 245.00000059604645, 1);
+	width:446px;
+	height:34px;
+	position:absolute;
+	left:274.5px;
+	top:0px;
+	font-family:Nunito;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}
+.de_uma_pequena_start_up_fundada_em_2001_no_brasil__passamos_para_uma_das_maiores_empresas_de_e_commerce_de_viagens_e_turismo_e_nosso_objetivo___fazer_com_que_fique_mais_f_cil_para_as_pessoas_vivenciarem_o_mundo_ { 
+	color:rgba(0, 0, 0, 1);
+	width:995px;
+	height:91px;
+	position:absolute;
+	left:0px;
+	top:78px;
+	font-family:Nunito;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:0;
+}
+.frame_74 { 
+	width:1377px;
+	height:188px;
+	position:absolute;
+	left:59px;
+	top:612px;
+}
+.quem_somos { 
+	color:rgba(71.00000336766243, 132.0000073313713, 245.00000059604645, 1);
+	width:156px;
+	height:68px;
+	position:absolute;
+	left:610.5px;
+	top:0px;
+	font-family:Nunito;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}
+.frame_72 { 
+	width:1377px;
+	height:120px;
+	position:absolute;
+	left:0px;
+	top:68px;
+}
+.a_skywaytrip_oferece_servi_os_de_turismo_passagens_a_reas__pacotes_de_viagem__com_acompanhamento_em_terminais_n_uticos_e_rodovi_rio__tanto_na_chegada__como_sa_da__al_m_de_passeios_tur_sticos_com_uma_equipe_qualificada__determinada_e_amig_vel__entregando_um_servi_o_da_melhor_qualidade_e_pre_o_justo_ { 
+	color:rgba(0, 0, 0, 1);
+	width:1377px;
+	height:120px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Nunito;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:0;
+}
+.sobre_a_skywaytrip { 
+	color:#E0CD80;
+	position:absolute;
+	left:68px;
+	top:149px;
+	font-family:Nunito;
+	text-align:left;
+	font-size:36px;
+	font-weight: bold;
+	background-color: #1D3B5E;
+	border-radius: 12px;
+	padding: 12px;
+	letter-spacing:0;
+}
+
+
+footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+	margin-top: 1000px;
+}
+
+.container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+}
+ .col-footer {
+    width: 25%;
+	margin-left: 50px;
+    padding: 0 15px;
+ }
+
+ .col-footer img {
+    width: 300px;
+    height: auto;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+ .col-footer ul li {
+    margin: 10px 0;
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+	position: relative;
+    transition: padding-left 0.8s ease;
+ }
+
+ .col-footer ul li a:hover {
+    color: #E0CD80;
+    padding-left: 5px;
+ }
+
