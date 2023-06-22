@@ -91,9 +91,9 @@ background-color: #95bafe;
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #234C8A;
+    color: #E0CD80;
     border-radius: 5px;
-    color: #95bafe;
 }
 
 /* FUNDO AZUL */

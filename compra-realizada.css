@@ -69,9 +69,9 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #234C8A;
+    color: #E0CD80;
     border-radius: 5px;
-    color: #95bafe;
 }
 
 
@@ -244,6 +244,6 @@ form input, form textarea {
 }
 
 .politica {
-    color: ;
+    color: blue;
 }
 
