@@ -1,19 +1,17 @@
+/*Header*/
 * {
     margin: 0;
     padding: 0;
     font-family: 'Nunito'
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    position: absolute;
-    width: 1600px;
+    position: static;
+    width: auto;
     height: 94px;
     left: 0px;
     top: 0px;
@@ -24,7 +22,6 @@ header {
 .logo img {
     width: 161px;
     height: 94px;
-    margin-top:50px;
 }
 
 nav {
@@ -45,7 +42,6 @@ nav ul {
     gap: 13px;
     width: 1265px;
     height: 94px;
-    margin-left: 300px;
 }
 
 nav li {
@@ -56,6 +52,38 @@ nav li {
     gap: 82px;
     width: 755px;
     height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+nav a:hover {
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
+}
+
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+
+.topde {
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
 }
 
 .link {
@@ -66,8 +94,8 @@ nav li {
 }
 
 .link:hover {
-    background-color: white;
-    color: #95bafe;
+    background-color:#234C8A;
+    color: #E0CD80;
 }
 .sobre_a_empresa_ { 
 	background-color:rgba(255, 255, 255, 1);
@@ -171,7 +199,7 @@ nav li {
 	font-weight: bold;
 }
 
-.acompanhamento_completo__compromisso_com_o_crescimento__atenciosidade_em_suas_necessidades_ { 
+.acompanhamento_completo_compromisso_com_o_crescimentoatenciosidade_em_suas_necessidades { 
 	color:rgba(0, 0, 0, 1);
 	width:459px;
 	height:206px;
@@ -230,7 +258,7 @@ nav li {
 	font-size:25px;
 	letter-spacing:0;
 }
-.na_skywaytrip__investimos_continuamente_em_tecnologias_que_ajudam_a_tornar_as_viagens_mais_tranquilas__simples_e_agrad_veis_ { 
+.na_skywaytrip_investimos_continuamente_em_tecnologias_que_ajudam_a_tornar_as_viagens_mais_tranquilassimples_e_agrad_veis { 
 	color:rgba(0, 0, 0, 1);
 	width:392px;
 	height:196px;
@@ -274,7 +302,7 @@ font-weight: bold;
 	font-size:25px;
 	letter-spacing:0;
 }
-.de_uma_pequena_start_up_fundada_em_2001_no_brasil__passamos_para_uma_das_maiores_empresas_de_e_commerce_de_viagens_e_turismo_e_nosso_objetivo___fazer_com_que_fique_mais_f_cil_para_as_pessoas_vivenciarem_o_mundo_ { 
+.de_uma_pequena_start_up_fundada_em_2001_no_brasil_passamos_para_uma_das_maiores_empresas_de_e_commerce_de_viagens_e_turismo_e_nosso_objetivo_fazer_com_que_fique_mais_f_cil_para_as_pessoas_vivenciarem_o_mundo { 
 	color:rgba(0, 0, 0, 1);
 	width:995px;
 	height:91px;
@@ -312,7 +340,7 @@ font-weight: bold;
 	left:0px;
 	top:68px;
 }
-.a_skywaytrip_oferece_servi_os_de_turismo_passagens_a_reas__pacotes_de_viagem__com_acompanhamento_em_terminais_n_uticos_e_rodovi_rio__tanto_na_chegada__como_sa_da__al_m_de_passeios_tur_sticos_com_uma_equipe_qualificada__determinada_e_amig_vel__entregando_um_servi_o_da_melhor_qualidade_e_pre_o_justo_ { 
+.a_skywaytrip_oferece_servi_os_de_turismo_passagens_a_reas_pacotes_de_viagemcom_acompanhamento_em_terminais_n_uticos_e_rodovi_riotanto_na_chegadacomo_sa_daal_m_de_passeios_tur_sticos_com_uma_equipe_qualificadadeterminada_e_amig_velentregando_um_servi_o_da_melhor_qualidade_e_pre_o_justo { 
 	color:rgba(0, 0, 0, 1);
 	width:1377px;
 	height:120px;
