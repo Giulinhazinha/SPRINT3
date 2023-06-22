@@ -188,13 +188,13 @@ nav li img {
 
 /* NOSSOS SERVIÇOS */
 .nossosservicos {
-    position: absolute;
+    position: relative;
     background-color: #1D3B5E;
     color: #E0CD80;
     font-size: 40px;
     width: 300px;
     height: auto;
-    top: 1900px;
+    margin-top: 550px;
     left: 100px;
     text-align: center;
     border-radius: 10px;
