@@ -219,19 +219,23 @@ input[type=button] {
     
 }
 
+/* Footer */
 footer {
     background-color: #234C8A;
-}
+    padding: 50px 0;
+ }
 
-.container-footer {
+ .container-footer {
     max-width: auto;
     padding: 0 4%;
     margin: auto;
-}
+ }
 
-.row-footer {
+ .row-footer {
     display: flex;
-}
+    /* flex-wrap: wrap; */
+ }
+
  .col-footer {
     width: 25%;
     padding: 0 15px;
@@ -252,8 +256,10 @@ footer {
  .col-footer ul {
     list-style: none;
  }
+
  .col-footer ul li {
     margin: 10px 0;
+
  }
 
  .col-footer ul li a {
@@ -266,47 +272,9 @@ footer {
  .col-footer ul li a:hover {
     color: #E0CD80;
     padding-left: 5px;
+
  }
 
- .container-denis {
-    margin-top: 100px;
-    top: 300px;
-    margin: 150px;
-    height: 150px;
-    width: 1200px;
-    border-radius: 10px;
-    background-color: #1f3763;
- }
-
- .Denis {
-    color: white;
-    margin: 30px;
- }
-
- .email-denis {
-    color: white;
-    margin: 30px;
- }
-
- .email-denis2 {
-    color: white;
-    margin-left: 300px;
-    margin-top: -70px;
- }
- .editar-perfil {
-    text-decoration: none;
-    color: white;
-    margin-left: 950px;
-    margin-top: -50px;
- }
- .mala {
-    border-radius: 1000px;
-    display: flex;
-    margin-left: 1060px;
-    margin-top: -85px;
-    height: 100px;
-    width: 100px;
- }
  .direitos {
     position: absolute;
     bottom: -850px; 
@@ -315,3 +283,4 @@ footer {
     line-height: 100px; 
     color: #E0CD80;
 }
+
