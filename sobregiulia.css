@@ -1,12 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-*{
-    margin:0; 
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    font-family: 'Nunito';
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: auto;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+nav a:hover {
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
+}
+
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+
+.topde {
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
+}
+
 
 .container{
     padding:15px 9%;
@@ -76,6 +156,24 @@
         padding:20px;
     }
 } 
+
+.titulos {
+    color: #234C8A;
+    font-weight: 1000;
+    text-align: center;
+    margin-left: 7%;
+    font-size: 25px;
+   
+    
+}
+
+.desc {
+    margin-left: 8%;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 8%;
+}
+
 /* Footer */
 footer {
     background-color: #234C8A;
