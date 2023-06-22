@@ -244,5 +244,14 @@ form input, form textarea {
 .politica {
     color: blue;
 }
+.direitos {
+    position: absolute;
+    bottom: -550px; 
+    width: 96%;
+    text-align: center;
+    line-height: 100px; 
+    color: #E0CD80;
+}
+
 
 
