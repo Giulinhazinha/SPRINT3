@@ -342,10 +342,10 @@ h1 {
     color: white;
  }
 
+/* Footer */
 footer {
     background-color: #234C8A;
     padding: 50px 0;
-    height: 340px;
  }
 
  .container-footer {
@@ -405,7 +405,7 @@ footer {
     text-align: center;
     line-height: 100px; 
     color: #E0CD80;
-    height: 180px;
 }
+
 
  
